@@ -9,7 +9,7 @@ The application is currently focussed around this data processing scenario.
 Currently, a use can navigate to the web form at: http://nactem.ac.uk/apps/openminted/chebi/ where they can enter their biological text for processing. The text is sent via a REST interface to a running Argo workflow, which processes the text for the entities of interest and returns the file path of the document that has been created. This is then processed to give the link to the file, visualised in brat.
 
 // pic of Chebi app
-image::chebiApp.png[caption="The web interface to the ChEBI app"]
+image::ChebiApp.png[caption="The web interface to the ChEBI app"]
 
 // info on rest interface
 The REST interface is accessible at:
