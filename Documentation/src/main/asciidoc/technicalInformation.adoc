@@ -15,7 +15,7 @@ Argo is a text-mining workbench that can be used to combine UIMA components into
 The Workflow we have created is shown below.
 
 // pic of Argo workflow
-image::Workflow.png
+image::Workflow.png[]
 
 // description of each component in workflow
 
