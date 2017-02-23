@@ -5,5 +5,33 @@
 == Technical information for ChEBI application
 
 // description of Argo
+Argo is a text-mining workbench that can be used to combine UIMA components into text-mining workflows. Argo provides components for a number of text-mining purposes. In this application, we use Argo to annotate the following entities:
+
+ * Chemicals
+ * Metabolites
+ * Proteins
+ * Species
+
+The Workflow we have created is shown below.
+
 // pic of Argo workflow
+image::Workflow.png
+
 // description of each component in workflow
+
+The Functionality of each component is described below:
+
+ * TextWebServiceReader: Reads in text provided by a user through the REST API
+ * LingPipe Sentence Splitter: Splits the input text into sentences using a model targeted at biologiacl texts.
+ * OSCAR 4 Tokeniser: Takes the input text and splits it into tokens (i.e. continuous text units broken on whitespace, punctuation, etc.) Specifically tuned for Chemical texts
+ * GENIA Tagger: Used to annotate the text with tokens, parts-of-speech, etc.
+ * Chemical Entity Recogniser (Chemicals): Recognises Chemical names in the text according to a pre-trained model.
+ * SPARQL Annotation Editor (Chemicals): Converts the output format (i.e. type) of the previous tool to a format which is required for output.
+ * Species Tagger: Identifies Species names in the text
+ * Duplicate Annotation Remover: Removes duplicated Species annotations
+ * NERsuite Custom Tagger (Proteins): Tags the text with protein names using a custom CRF-based model.
+ * Chemical Entity Recogniser (Metabolites): Idenitifies metabolite named entities in the text.
+ * BioNLP ST Type System Loader (2): Makes sure that the correct Types are loaded in the Underlying Common Annotation Structure (CAS).
+ * BioNLP ST WebService Writer: Writes the annotations to brat and returns the link to the file to the user.
+
+
