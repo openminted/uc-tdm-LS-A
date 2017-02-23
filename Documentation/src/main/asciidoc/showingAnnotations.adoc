@@ -10,9 +10,11 @@ Currently, a use can navigate to the web form at: http://nactem.ac.uk/apps/openm
 
 // pic of Chebi app
 The Web interface is shown in the image below:
+
 image::ChebiApp.png[]
 
 The output of the workflow is displayed in brat as shown:
+
 image::bratOutput.png[]
 
 
