@@ -15,7 +15,7 @@ image::ChebiApp.png[caption="The web interface to the ChEBI app"]
 The REST interface is accessible at:
 
 ....
- http://argo.nactem.ac.uk/dev/proxy/webservice/315
+ http://argo.nactem.ac.uk/dev/proxy/webservice/364
 ....
 
 Users should submit a request via POST with the header: Content-type:text/plain
@@ -35,7 +35,7 @@ A minimum working example in javascript is presented below:
 
 //set up the HTTP Request
 var xhr = new XMLHttpRequest();
-xhr.open("POST", 'http://argo.nactem.ac.uk/dev/proxy/webservice/315', true);
+xhr.open("POST", 'http://argo.nactem.ac.uk/dev/proxy/webservice/364', true);
 
 //Send the proper header information along with the request
 xhr.setRequestHeader("Content-type", "text/plain");
