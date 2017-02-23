@@ -8,8 +8,8 @@ LS-A is designed to aid in the curation of the ChEBI database. At the first rele
 
 In LS-A, we have outlined the following data processing scenarios:
 
- * <<addingDocuments.adoc, Adding documents to the database>>
- * <<showingAnnotations.adoc, Showing annotations of a given document>>
- * <<retrievingRelations.adoc, Retrieving relactions from the database>>
+ * <<./addingDocuments.adoc, Adding documents to the database>>
+ * <<./showingAnnotations.adoc, Showing annotations of a given document>>
+ * <<./retrievingRelations.adoc, Retrieving relations from the database>>
 
 The first release of the application has focussed on the second scenario - i.e., showing annotations to the user. This allows us to get feedbcak from the users on the types of annotations that are of interest to them and helps us to focus and improve ur future efforts.
