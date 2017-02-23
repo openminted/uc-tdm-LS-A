@@ -1,0 +1,7 @@
+= Retrieving Relations from the Database
+
+[[sect_retrieving_relations]]
+
+== Retrieving relations from the database
+
+This data processing scenario is yet to be addressed in the current LS-A application.

@@ -1,0 +1,7 @@
+= Adding Documents to the Database
+
+[[sect_adding_docs]]
+
+== Adding documents to the database
+
+This data processing scenario is yet to be addressed in the current LS-A application.

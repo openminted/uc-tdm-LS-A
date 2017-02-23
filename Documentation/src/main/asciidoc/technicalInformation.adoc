@@ -1,0 +1,9 @@
+= Technical Information for ChEBI Application
+
+[[sect_technical_info]]
+
+== Technical information for ChEBI application
+
+// description of Argo
+// pic of Argo workflow
+// description of each component in workflow
