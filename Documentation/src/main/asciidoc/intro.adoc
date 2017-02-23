@@ -1,0 +1,15 @@
+[[sect_introduction]]
+
+== Introduction
+
+LS-A is designed to aid in the curation of the ChEBI database. At the first release of this application we have developed a web application built using the Argo text mining workflow system (http://argo.nactem.ac.uk/). The web application allows a user to enter a piece of text from a biological article and see the results of the annotation displayed in the brat annotation visualisation tool (http://brat.nlplab.org/).
+
+== Data Processing Scenarios
+
+In LS-A, we have outlined the following data processing scenarios:
+
+ * <<addingDocuments.adoc, Adding documents to the database>>
+ * <<showingAnnotations.adoc, Showing annotations of a given document>>
+ * <<retrievingRelations.adoc, Retrieving relactions from the database>>
+
+The first release of the application has focussed on the second scenario - i.e., showing annotations to the user. This allows us to get feedbcak from the users on the types of annotations that are of interest to them and helps us to focus and improve ur future efforts.
