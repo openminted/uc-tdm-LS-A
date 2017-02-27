@@ -66,8 +66,8 @@
                         <configuration>
                             <backend>html5</backend>
                             <sourceHighlighter>coderay</sourceHighlighter>
-                            <sourceDocumentName>user-guide.adoc</sourceDocumentName>
-                            <imagesDir>./user-guide/images</imagesDir>
+                            <sourceDocumentName>intro.adoc</sourceDocumentName>
+                            <imagesDir>.</imagesDir>
                             <doctype>book</doctype>
                             <!--
                             Scenarios for linking vs embedding assets:
@@ -137,8 +137,8 @@
                         <configuration>
                             <backend>pdf</backend>
                             <sourceHighlighter>coderay</sourceHighlighter>
-                            <sourceDocumentName>user-guide.adoc</sourceDocumentName>
-                            <imagesDir>./user-guide/images</imagesDir>
+                            <sourceDocumentName>intro.adoc</sourceDocumentName>
+                            <imagesDir>.</imagesDir>
                             <attributes>
                                 <toclevels>5</toclevels>
                                 <toc>preamble</toc>
