@@ -26,7 +26,7 @@ The REST interface is accessible at:
  http://argo.nactem.ac.uk/dev/proxy/webservice/<ServiceID>
 ....
 
-Where <ServiceID> is a unique ID which locates the service. Currently, this is set at "364", although this is liable to change.
+Where <ServiceID> is a unique ID which locates the service. Currently, this is set at "384", although this is liable to change.
 
 Users should submit a request via POST with the header: Content-type:text/plain
 
