@@ -35,3 +35,5 @@ The Functionality of each component is described below:
  * BioNLP ST WebService Writer: Writes the annotations to brat and returns the link to the file to the user.
 
 
+== ChEBI web service
+This worflow is wrapped up as a web service compliant with the OMTD platform. More information about the specifications of an OMTD web service can be found at: https://openminted.github.io/releases/processing-web-services/1.0.0/specification. The web service is available at: http://nactem.ac.uk/api/openminted/chebi/ (please be noted that this is not a web page hence cannot be accessed via web browsers).
