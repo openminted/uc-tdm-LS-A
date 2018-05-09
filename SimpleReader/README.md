@@ -1,0 +1,1 @@
+This simple reader is specific for the LS-A use case only. It receives two arguments: input directory and output directory. The input directory should contain XMI files. All corresponding JSON files containing Chebi entity annotations (as described in Chebi Curation Type System) will be stored in the output directory.

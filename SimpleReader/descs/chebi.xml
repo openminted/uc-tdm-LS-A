@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+	<name>ChEBI Curation Type System</name>
+	<description>Type system for the ChEBI use case of the OpenMinTeD project</description>
+	<version>0.2</version>
+	<vendor>NaCTeM</vendor>
+	
+	<types>
+		<typeDescription>
+			<name>uk.ac.nactem.uima.chebi.ChebiConcept</name>
+			<description>Basic concept for Chebi Curation</description>
+			<supertypeName>uima.tcas.Annotation</supertypeName>
+		</typeDescription>
+		<typeDescription>
+			<name>uk.ac.nactem.uima.chebi.Chemical</name>
+			<description>A chemical name</description>
+			<supertypeName>uk.ac.nactem.uima.chebi.ChebiConcept</supertypeName>
+		</typeDescription>
+		<typeDescription>
+			<name>uk.ac.nactem.uima.chebi.Species</name>
+			<description>A species name</description>
+			<supertypeName>uk.ac.nactem.uima.chebi.ChebiConcept</supertypeName>
+		</typeDescription>
+		<typeDescription>
+			<name>uk.ac.nactem.uima.chebi.Protein</name>
+			<description>A protein name</description>
+			<supertypeName>uk.ac.nactem.uima.chebi.ChebiConcept</supertypeName>
+		</typeDescription>
+		<typeDescription>
+			<name>uk.ac.nactem.uima.chebi.Metabolite</name>
+			<description>A metabolite name</description>
+			<supertypeName>uk.ac.nactem.uima.chebi.ChebiConcept</supertypeName>
+		</typeDescription>
+		<typeDescription>
+			<name>uk.ac.nactem.uima.chebi.BiologicalActivity</name>
+			<description>An effect/consequence that a chemical entity has on a biological system</description>
+			<supertypeName>uk.ac.nactem.uima.chebi.ChebiConcept</supertypeName>
+		</typeDescription>
+		<typeDescription>
+			<name>uk.ac.nactem.uima.chebi.SpectralData</name>
+			<description>Data arising from spectrometry</description>
+			<supertypeName>uk.ac.nactem.uima.chebi.ChebiConcept</supertypeName>
+		</typeDescription>
+
+
+		</types>
+</typeSystemDescription>

@@ -1,0 +1,19 @@
+Class: MyWritingJSON
+  No meta data [description] found
+  No meta data [copyright] found
+
+Class: uk.ac.nactem.openminted.ArgoPhenotypesXMIReader
+  No meta data [copyright] found
+
+Class: uk.ac.nactem.openminted.MyWritingJSON
+  No meta data [description] found
+  No meta data [copyright] found
+
+Class: uk.ac.nactem.openminted.SimpleReader
+  No meta data [copyright] found
+  No description found for parameter [recursive]
+
+Class: uk.ac.nactem.openminted.simplereader.SimpleReader
+  No meta data [copyright] found
+  No description found for parameter [recursive]
+

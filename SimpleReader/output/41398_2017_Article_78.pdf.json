@@ -1,0 +1,4058 @@
+{
+  "annotatedDocument": {
+    "@context": {
+      "UCompareTS": "http://nactem.ac.uk/schema/uima/typesystem/U_compareTypeSystem#",
+      "Sentence": "UCompareTS:org.u_compare.shared.syntactic.Sentence",
+      "ChebiTS": "http://nactem.ac.uk/schema/uima/typesystem/ChebiCurationTypeSystem#",
+      "Chemical": "ChebiTS:uk.ac.nactem.uima.chebi.Chemical",
+      "Species": "ChebiTS:uk.ac.nactem.uima.chebi.Species",
+      "Protein": "ChebiTS:uk.ac.nactem.uima.chebi.Protein",
+      "Metabolite": "ChebiTS:uk.ac.nactem.uima.chebi.Metabolite",
+      "SpectralData": "ChebiTS:uk.ac.nactem.uima.chebi.SpectralData",
+      "BiologicalActivity": "ChebiTS:uk.ac.nactem.uima.chebi.BiologicalActivity"
+    },
+    "text": "\nLi et al. Translational Psychiatry  (2018) 8:34 \nDOI 10.1038/s41398-017-0078-2 Translational Psychiatry\n\nART ICLE Open Ac ce s s\n\nMetabolite identification in fecal\nmicrobiota transplantation mouse livers\nand combined proteomics with chronic\nunpredictive mild stress mouse livers\nBo Li1,2,3, Kenan Guo4, Li Zeng1,2, Benhua Zeng4, Ran Huo1,2,3, Yuanyuan Luo1,2,5, Haiyang Wang1,2, Meixue Dong1,2,\nPeng Zheng1,2,6, Chanjuan Zhou1,2, Jianjun Chen1,2, Yiyun Liu1,2, Zhao Liu1,2, Liang Fang5, Hong Wei2 and\nPeng Xie2,3,5,6,7\n\nAbstract\nMajor depressive disorder (MDD) is a common mood disorder. Gut microbiota may be involved in the pathogenesis of\ndepression via the microbe–gut–brain axis. Liver is vulnerable to exposure of bacterial products translocated from the\ngut via the portal vein and may be involved in the axis. In this study, germ-free mice underwent fecal microbiota\ntransplantation from MDD patients and healthy controls. Behavioral tests verified the depression model. Metabolomics\nusing gas chromatography–mass spectrometry, nuclear magnetic resonance, and liquid chromatography–mass\nspectrometry determined the influence of microbes on liver metabolism. With multivariate statistical analysis, 191\nmetabolites were distinguishable in MDD mice from control (CON) mice. Compared with CON mice, MDD mice\nshowed lower levels for 106 metabolites and higher levels for 85 metabolites. These metabolites are associated with\nlipid and energy metabolism and oxidative stress. Combined analyses of significantly changed proteins in livers from\nanother depression model induced by chronic unpredictive mild stress returned a high score for the Lipid Metabolism,\nFree Radical Scavenging, and Molecule Transports network, and canonical pathways were involved in energy\nmetabolism and tryptophan degradation. The two mouse models of depression suggest that changes in liver\nmetabolism might be involved in the pathogenesis of MDD. Conjoint analyses of fecal, serum, liver, and hippocampal\nmetabolites from fecal microbiota transplantation mice suggested that aminoacyl-tRNA biosynthesis significantly\nchanged and fecal metabolites showed a close relationship with the liver. These findings may help determine the\nbiological mechanisms of depression and provide evidence about “depression microbes” impacting on liver\nmetabolism.\n\nIntroduction\nMajor depressive disorder (MDD) is a debilitating\n\nmental disorder accounting for 12.3% of the global burden\n\nof disease and affects up to 15% of the general popula-\ntion1. Recent studies suggest that MDD is associated\nwith neurotrophic alterations2, an imbalance in the\nhypothalamic–pituitary–adrenal axis3, and glutamine\nneurotransmitter system dysfunction4. Most research on\ndepression focuses on changes to the brain, and few stu-\ndies have examined the effects of liver metabolism on\ndepression.\n\n© The Author(s) 2018\nOpenAccessThis article is licensedunder aCreativeCommonsAttribution 4.0 International License,whichpermits use, sharing, adaptation, distribution and reproduction\nin any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if\n\nchangesweremade. The images or other third partymaterial in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to thematerial. If\nmaterial is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain\npermission directly from the copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.\n\nCorrespondence: Hong Wei (weihong63528@163.com) or\nPeng Xie (xiepeng@cqmu.edu.cn)\n1Institute of Neuroscience and the Collaborative Innovation Center for Brain\nScience, Chongqing Medical University, Chongqing, China\n2Chongqing Key Laboratory of Neurobiology, Chongqing, China\nFull list of author information is available at the end of the article\nBo Li, Kenan Guo, Li Zeng, and Benhua Zeng contributed equally to this work.\n\n12\n34\n\n56\n78\n\n90\n()\n:,;\n\n12\n34\n\n56\n78\n\n90\n()\n:,;\n\n\n\n\n\n\nAccumulating evidence suggests that disruption of\ngastrointestinal microbes is associated with the develop-\nment or exacerbation of mental disorders in humans, and\nthe microbe–gut–brain axis may play a key role in main-\ntaining brain health and stress responses5–7.\nA mouse model of depression has been established\n\nusing fecal microbiota transplantation (FMT), in which\nfecal matter from MDD patients is implanted into germ-\nfree mice8,9. The germ-free mouse, which is free from\nbacterial contamination, has been widely used to investi-\ngate interactions between the microbiota and host10.\nThe liver is the main organ for substrate and energy\n\nmetabolism and plays an important role in oxidative\nstress, glycogen storage, and the synthesis of secretory\nproteins. A previous study reported that liver diseases\nwere associated with depression and suicide attempts11.\nRecently, metabolomics has been used to define meta-\n\nbolic disorders and specific biomarkers of various disease\nstates12,13. We have applied metabolomics to the serum14,\nurine15, and peripheral blood mononuclear cells16 of\nMDD patients, and the prefrontal cortex of a lipopoly-\nsaccharide (LPS)-induced mouse model of depression17.\nDuring these studies, we identified five metabolites in\nurine from MDD patients uniquely produced by bacteria\nin the intestinal tract that were significantly decreased\nrelative to healthy controls (CONs). Of note, some clinical\nstudies have reported that MDD induced a relatively high\nincidence of irritable bowel syndrome, a disease involving\ngut microbe disorders15,18. It is possible that MDD has an\nassociation with intestinal microbe dysbiosis. Further, we\nanalyzed fecal, serum, and hippocampal samples from a\ndepression microbe-induced mouse model, and found\nthat the metabolites might be associated with carbohy-\ndrate, amino acid, and nucleotide metabolism9. Based on\nthese findings, we considered “depression microbes” can\naffects metabolism in the gut tract and serum. Whether\nmicrobiota dysbiosis impacts on the liver metabolism\nprofile and whether the liver plays an important role in\nthe microbe–gut–brain axis are not clear.\nWith diverse methodologies, the combination of dif-\n\nferent metabolomics platforms can identify more synth-\nesis metabolites than a single method19–21. In the current\nstudy, three metabolomics approaches using nuclear\nmagnetic resonance (NMR), gas chromatography–mass\nspectrometry (GC–MS), and liquid chromatography–mass\nspectrometry (LC–MS) were combined to determine\nmetabolomics profile alterations in the livers of a mouse\nmodel of MDD.\n\nMaterials and methods\nEthical considerations\nAnimal experiments were approved by the Third\n\nMilitary Medical University (Chongqing, China) and the\nEthical Committee of Chongqing Medical University\n\n(Chongqing, China). Kunming (germ-free) mice were\nobtained from the Experimental Animal Research Center\nat the Third Military Medical University and were kept in\nflexible film gnotobiotic isolators until 6 weeks old and\nweighing 30–40 g. Mice were housed in standard auto-\nclaved polypropylene cages with access to food and water\nad libitum under a 12-h dark–light cycle (light from 08:00\nAM until 08:00 PM), and at a constant temperature (23±\n1 °C) and relative humidity (50± 5%). Mice acclimatized\nfor 2 weeks to standard experimental conditions prior to\nthe commencement of experiments.\n\nFMT and sample collection\nMDD patients were diagnosed following a structured\n\npsychiatric interview using DSM-IV-TR criteria and 17\nitems from the Hamilton depression rating scale. The\nFMT was carried out via randomly selecting 0.5 g of\nfeces from five MDD or healthy individuals under an\noxygen-free environment, and all 0.5 g samples were\nmixed in 7.5 mL of 0.9% saline to obtain suspension. Then\nthe microbiota was transplanted into germ-free mice in a\nflexible film gnotobiotic isolator. After 2 weeks, behavioral\ntests were performed. On completion of behavioral tests,\nthe livers of mice were immediately collected and stored\nat −80 °C until metabolism analysis.\n\nGas chromatography–mass spectrometry\nTwenty-four mouse livers (12 MDD and 12 CON) were\n\nprepared for GC–MS metabolomics analysis. Briefly, a\n100-mg liver sample was derivatized with pyridine\nhydrochloride solution and N,O-bis(trimethylsilyl)tri-\nfluoroacetamide (including 1% trimethylchlorosilane)\nbefore undergoing GC–MS analysis. Full details for\nderivatization and GC–MS conditions have been repor-\nted19. Analysis used the exported NetCDF file format\nand TagFinder. As an internal standard, L-2-\nchlorophenylalanine (0.03 mg/mL; methanol configura-\ntion) was used to normalize peak areas of extracted ions.\n\nNuclear magnetic resonance\nLiver tissue (~ 100mg) was mixed with 800 µL\n\nmethanol–water (4:1, v/v) before being homogenized,\nultrasonic extraction for 5 min, stewing for 20 min at 4 °C,\nand centrifugation at 14,000 g for 10min at 4 °C. Super-\nnatant (200 µL) was transferred to a glass bottle for rapid\ncentrifugal concentrator volatile drying before being dis-\nsolved in 500 µL heavy water in a NMR tube prior to\ndetection.\nProton spectra were detected using a Varian 600 spec-\n\ntrometer at an operating power of 599.925MHz in 1H. A\nCarr–Purcell–Meiboom–Gill (recycle delay−90°−(τ−180°\n−τ)n−acquisition) pulse sequencer with a relaxation\ndelay of 2.5 s, a mixing time of 100m/s, a spectral width of\n10 kHz, and a data point of 16 K was used cumulatively\n\nLi et al. Translational Psychiatry  (2018) 8:34 Page 2 of 12\n\n\n\n128 times. Discrimination between MDD and CON mice\nwas visualized using partial least-squares discriminant\nanalysis. Coefficient loading plots of the model were used\nto identify the spectral variables responsible for the\nsample differentiation on the score plot. A correlation\ncoefficient of │r│\u003e 0.553 based on a p-level\u003c 0.05 or\nvariable importance in projection (VIP) value \u003e 1.000 was\nused as the cutoff value for statistical significance.\n\nLiquid chromatography–mass spectrometry\nLC–MS preparation was performed as previously\n\ndescribed9. Briefly, 100 mg of liver sample was homo-\ngenized with 20 µL internal standard (l-2-chloro-L-phe-\nnylalanine, 0.03 mg/mL; methanol configuration) and 800\nµL methanol–water solution (4/1, v/v) before ultrasonic\nextraction for 5 min, incubation for 20min at 4 °C, and\ncentrifugation for 10 min at 14,000 g at 4 °C. Supernatant\n(200 µL) was transferred into a glass bottle for LC–MS\nmetabolomics analysis. Supernatant underwent ultra-\nperformance liquid chromatography–tandem mass spec-\ntrometry (UPLC-Q-TOF/MS). Mass spectrometric data\nwere collected using a Waters VION IMS Q-TOF mass\nspectrometer equipped with an electrospray ionization\nsource operating in either positive or negative ion mode.\nFull details are provided in a previous study9. Orthogonal\npartial least-squares discriminant analysis (OPLS-DA)\nwas used to identify differential metabolites in MDD mice\ncompared with CON mice.\n\nMetabolomics function and pathway analyses\nFor significantly altered metabolites (p\u003c 0.05 and VIP\n\n\u003e 1.0), pathway analyses was performed using MetaboA-\nnalyst 3.0 (http://www.metaboanalyst.ca/) and Ingenuity\npathway analysis (IPA) software. MetaboAnalyst is a\ncomprehensive web application for metabolomics\ndata analysis and interpretation. Metabolomics pathway\nanalysis used several databases, including the Human\nMetabolome Database (HMDB; http://www.hmdb.ca/),\nMetlin (https://metlin.scripps.edu/), and the Kyoto\nEncyclopedia of Genes and Genomes (KEGG; http://www.\ngenome.jp/kegg/), and the MetaboAnalyst tool, which can\nidentify the most significantly changed metabolism\npathways.\n\nMolecular network analysis\nPrevious studies applying proteomics and metabo-\n\nnomics to the livers of chronic unpredictive mild stress\n(CUMS) mouse models of depression reported disturbed\nlipid metabolism and immune regulation22,23. In the\ncurrent study, we cross-analyzed the two mouse models\nof depression using IPA. IPA is an advanced bioinfor-\nmatics software program used to analyze biological\npathways and functions of biomolecules of interest. The\nhigher the score, the more relevant the molecules are to\n\nthe network. The score is calculated using the right-tailed\nFisher’s exact test and is based on hypergeometric\ndistribution.\n\nResults\nBehavioral tests\nResults of the behavioral tests are reported in our pre-\n\nvious research9. Briefly, immobility times for the forced\nswimming test and the tail suspension test significantly\nincreased and the center motion distance for the open-\nfield test significantly decreased in “depression microbes”\nmice compared with “healthy microbes” mice, only\nbehavioral significant changes mice used for further\nanalysis. Using FMT, we constructed a mouse model of\ndepression.\n\nMetabolites showing a significant difference between\nMDD and CON mice\nMetabolites from 12 MDD and 12 CON mice were used\n\nfor OPLS-DA analysis. OPLS-DA score plots showed\ndistinct separation between MDD mice and CON mice\nusing the three metabolomics approaches (LC–MS_pos:\nR2Y\u003d 0.868, Q2\u003d 0.683; LC–MS_neg:R2Y\u003d 0.798, Q2\n\u003d 0.618; GC–MS: R2Y\u003d 0.549, Q2\u003d−0.694; NMR: R2Y\ncum\u003d 0.936, Q2\u003d 0.917) (Fig. 1). R2Y is the cumulative\nmodel variation in Y, and Q2 is the cumulative predicted\nvariation. Values for these parameters approaching\n1.0 indicate a stable model with predictive reliability.\nIn the current study, R2Y and Q2 values indicated\nsignificant metabolic differences between MDD and\nCON mice. The original total ion chromatograms,\ntypical base peak intensity chromatograms, and 1H\nCarr–Purcell–Meiboom–Gill NMR spectra are shown in\nSupplementary Fig. 1. A 199-iteration permutation test\nconfirmed that OPLS-DA models were not over-fitted and\nwere valid (Supplementary Fig. 2).\nFrom OPLS-DA analysis, a total of 191 significantly\n\ndifferent metabolites were identified between the MDD\nand CON mice using the three metabolomics approaches\n(106 decreased and 85 increased in the livers of\nMDD mice compared with CON mice). Details of the\nmetabolites are shown in Table 1 and Supplementary\nTable 1.\n\nClassification of the significantly changed metabolites\nUsing HMDB and MID for classification of metabolites\n\naccording to their super class revealed that many belon-\nged to the Lipid super class (linolenic acid, oxoproline,\nmaltotriitol, arachidonic acid, 13-hydroxy-docosanoic\nacid) and the Amino acids, peptides and analogs super\nclass (alanine, isoleucine, glutamine, valine, iminodiacetic\nacid), as well as Carbohydrates and Carbohydrate Con-\njugates (glycogen, glutathione, D-arabitol), Aliphatic\nAcyclic Compounds (ethanolamine, trimethylamine\n\nLi et al. Translational Psychiatry  (2018) 8:34 Page 3 of 12\n\n\n\n\n\n\n\n\nN-oxide, phosphocholine, urea) among others. A part of\nmetabolites were clustering analyzed and emerged sig-\nnificantly different trends, especially in the Lipid super\nclass (Fig. 2a). Lipid proportion \u003e65% and Amino acids\nnearly 10% in all metabolites, the number of each class\nshowed in Fig. 2b.\n\nMetabolites analyzed between FMT and CON mice\nThe differential metabolites and their respective fold-\n\nchange were analyzed using MetaboAnalyst, KEGG, and\nIPA to explore the potential effects of depression\nmicrobes. We identified nine pathways with a p-value\u003c\n0.05 that were different in MDD mice compared with\n\nFig. 1 Orthogonal partial least-squares discriminant analysis (OPLS-DA) score plots and 1H nuclear magnetic resonance (NMR)\ncorresponding coefficient loading plots. a–c OPLS-DA score plots derived from ultra-performance liquid chromatography–tandem mass\nspectrometry (UPLC-Q-TOF/MS) electrospray ionization (ESI) (+), UPLC-Q-TOF/MS ESI (−), and gas chromatography–mass spectrometry (GC–MS)\nspectra of the major depressive disorder (MDD) group and control (CON) group. d OPLS-DA score plots derived from 1H Carr–Purcell–Meiboom–Gill\nNMR spectra of liver extracts and corresponding coefficient loading plots e, f obtained from the CON group and the MDD group. e, f Show the\nsignificance of metabolite variations between the two classes. Peaks in the positive direction indicate metabolites that are more abundant in MDD.\nMetabolites more abundant in the CON group are shown as peaks in the negative direction. The key to assignment is shown in Supplementary Fig. 1\n\nLi et al. Translational Psychiatry  (2018) 8:34 Page 4 of 12\n\n\n\nTable 1 Metabolites identified in livers extracts\n\nMetabolite/super class VIPa FC rb HMDB Platform P-valuec Trendd\n\nAliphatic acyclic compounds\n\nEthanolamine 2.60 – – HMDB00149 NMR – ↓\n\nTrimetlylamine oxide 2.63 – – HMDB00925 NMR – ↓\n\nPhosphocholine 1.89 – – HMDB01565 NMR – ↑\n\nUrea 3.85 1.76 – HMDB00294 GC–MS 0.04 ↑\n\nPutrescine 1.16 1.25 – HMDB01414 GC–MS 0.03 ↑\n\nAmino acids, peptides, and analogs\n\nAlanine 1.46 – – HMDB00161 NMR – ↑\n\nGlycine 1.08 – – HMDB00123 NMR – ↑\n\nGlycerol 1.79 – 0.64 HMDB00125 NMR – ↑\n\nHypoxanthine – – 0.68 HMDB00157 NMR – ↑\n\nHistidine – – −0.90 HMDB00177 NMR – ↓\n\nLysine 1.56 – – HMDB00182 NMR – ↑\n\nPhosphocreatine – – 0.59 HMDB01511 NMR – ↑\n\nIminodiacetate 36.22 – −0.98 HMDB11753 NMR – ↓\n\nAlanine 5.44 1.24 – HMDB00161 GC–MS 0.00 ↑\n\nProline 3.20 1.25 – HMDB00162 GC–MS 0.01 ↑\n\nIsoleucine 2.93 1.45 – HMDB00172 GC–MS 0.01 ↑\n\nGlutamine 3.01 0.46 – HMDB00641 GC–MS 0.00 ↓\n\nValine 3.80 1.39 – HMDB00883 GC–MS 0.02 ↑\n\n3-Aminoisobutyric acid 4.22 3.21 – HMDB03911 GC–MS 0.00 ↑\n\nCarbohydrates and carbohydrate conjugates\n\nGlycogen 2.74 – – HMDB00131 NMR – ↑\n\nβ-Glucose 1.92 – – HMDB00516 NMR – ↓\n\nGlutathione – – 0.58 HMDB00757 NMR – ↑\n\nα-Glucose 3.55 – −0.68 HMDB03345 NMR – ↓\n\nD-Arabitol 1.27 2.19 – HMDB00568 GC–MS 0.00 ↑\n\nGalactinol 14.68 0.59 – HMDB05826 GC–MS 0.00 ↓\n\nNucleosides, Nucleotides, and Analogs\n\nInosine – – 0.58 HMDB00195 NMR – ↑\n\nUridine diphosphate–glucose – – 0.71 HMDB00286 NMR – ↑\n\nUridine – – 0.61 HMDB00296 NMR – ↑\n\nLipids\n\nLinolenic acid 1.29 1.44 – HMDB01388 GC–MS 0.03 ↑\n\nOxoproline 6.14 1.35 – HMDB08177 GC–MS 0.00 ↑\n\nMaltotriitol 6.15 0.64 – HMDB15224 GC–MS 0.00 ↓\n\nOrganic acids and derivatives\n\nLactate 2.42 – – HMDB62492 NMR – ↑\n\n3-Hydroxybutyrate – – 0.63 HMDB00357 NMR – ↑\n\nLi et al. Translational Psychiatry  (2018) 8:34 Page 5 of 12\n\n\n\nCON mice (Supplementary Table 2). After p-values were\nadjusted using Holm–Bonferroni corrections and the false\ndiscovery rate, only glycerophospholipid metabolism sig-\nnificantly changed. Canonical pathway overlapping ana-\nlyzed using IPA (Supplementary Fig. 3) included tRNA\ncharging, glutamate receptor signaling. A total of 16\nmetabolites were identified as being significantly asso-\nciated with glycolysis and the tricarboxylic acid cycle (Fig.\n2c).\n\nSystem integrated analysis in FMT mice\nFrom system integrated analysis of significant metabo-\n\nlites in the feces, serum and hippocampal samples iden-\ntified in a previous study9, the amino acids asparagine,\nglutamine, isoleucine, proline, leucine, and glycine, which\nare involved in aminoacyl-tRNA biosynthesis, were most\nsignificantly altered. Details of the KEGG pathways are\nshown in Fig. 3a.\nWe also compared overlapping metabolites in different\n\nregions of FMT mice (Fig. 3b), and found that nine\nmetabolites in the feces had a close association with the\nliver, and are mainly involved in energy and lipid meta-\nbolism (Supplementary Fig. 4).\n\nCombined analysis of FMT and CUMS mice\nMetabolites showing significant changes detected by\n\nLC–MS in livers from FMT and CUMS mice with mini-\nmum overlapping are listed in Fig. 3c. In super class,\nmainly of the metabolites belong to lipid. We analyzed\nmetabolic pathways and glycerophospholipid metabolism\nwas disturbed in FMT mice. Interesting to note that\nCUMS mice had the same change.\n\nGlycerophospholipid is usually subdivided into phos-\nphatidylethanolamine (PE), phosphatidylcholine (PC),\nphosphatidic acid (PA), and phosphoinositides (PS). PC\nspecies not only protects cells and their organelles from\noxidative stress, but also is an essential component of\nbiomembranes. PE species has been identified as mod-\nulator of inflammation24. The disturbance of glycer-\nophospholipid metabolism indicated oxidative stress,\ninflammatory cell membrane damage, and even apoptosis\nin the liver during FMT and CUMS. The common path-\nway disturbance in liver may play an important role in\ndepression.\n\nMolecular network analysis of FMT mice using IPA\nA total of 191 metabolites and their respective fold-\n\nchanges were subjected to molecular interaction network\nanalysis using IPA software. Lipid Metabolism, Small\nMolecule Biochemistry, and Cellular Compromise were\nthe most significantly changed network. A total of 21\nmetabolites, including L-glutamine, linolenic acid, lysine,\nphosphorylcholine, urea, L-proline, and glycogen, were\nassociated with the network (Fig. 4).\n\nMolecular network analysis of FMT and CUMS mice by IPA\nIn a study that undertook quantitative proteomics\n\nanalysis of livers from the CUMS mouse model of\ndepression, a total of 66 proteins were reported to exhibit\nsignificantly different expression22.\nWe combined proteomics and metabolomics using IPA\n\nto examine the two models of depression, which showed\nbehavioral changes stemming from different mechanisms.\nThe Lipid Metabolism, Free Radical Scavenging and\n\nTable 1 continued\n\nMetabolite/super class VIPa FC rb HMDB Platform P-valuec Trendd\n\nLactic acid 3.00 1.14 – HMDB00190 GC–MS 0.01 ↑\n\nSuccinic acid 1.56 1.68 – HMDB00254 GC–MS 0.00 ↑\n\nOrganophosphorus compounds\n\nO-phosphorylethanolamine 1.09 0.31 – HMDB00224 GC–MS 0.01 ↓\n\nPhosphomycin 1.85 0.49 – HMDB14966 GC–MS 0.00 ↓\n\nOthers/unknown\n\nUracil – – −0.56 HMDB00300 NMR – ↓\n\nHypoxanthine 3.58 1.29 – HMDB00157 GC–MS 0.00 ↑\n\nXanthine 2.79 1.27 HMDB00292 GC–MS 0.00 ↑\n\nD-(glycerol 1-phosphate) 1.81 0.38 – HMDB00126 GC–MS 0.01 ↓\n\nVIP variable importance in projection, FC fold change, HMDB Human Metabolome Database. All identified metabolites were grouped by super class (based on HMDB\nwebsite information)\n1 A VIP value \u003e 1.000 was used as the cutoff value for statistical significance. “-” means the correlation coefficient of │r│ \u003c 0.553 or VIP value of \u003c1.000\n2 Correlation coefficients: positive and negative signs indicate a positive or negative correlation in the concentrations. A correlation coefficient of │r│ \u003e 0.553 was\nused as the cutoff value for statistical significance based on discrimination significance at a p-level of 0.05 and 11 degrees of freedom (df)\n3 p-Value was derived from two-tailed Student’s t-test\nd “↑” indicates higher levels in major depressive disorder (MDD), and “↓” indicates lower levels in MDD\n\nLi et al. Translational Psychiatry  (2018) 8:34 Page 6 of 12\n\n\n\nMolecule Transports network had a high score of 99, and\nincluded high-density lipoprotein, low-density lipopro-\ntein, the nuclear factor κB signaling pathway (Supple-\nmentary Fig. 5). From canonical pathway analysis, we\nfound that the overlap centered on Glycogen degradation\nand Tryptophan Degradation (Supplementary Fig. 6).\n\nDiscussion\nDepression is a widespread and debilitating mental\n\ndisorder that contributes to increased suicide rates and\nhas a heavy socioeconomic burden; however, little is\nknown about its pathogenesis. The gut microbiota is the\nlargest ecosystem in the body and affects numerous\nphysiological functions. The microbe–gut–brain axis is a\ncommunication system that integrates neural, hormonal,\nand immunological signals and metabolites between the\ngut and the brain25. Bacterial products, including lactic\n\nacid, organic acids, tryptophan, and propionic acid, have\nbeen shown to influence behavior in animals26, con-\njugated fatty acids, LPS, peptidoglycan, acylglycerols,\nsphingomyelin, and cholesterol can affect intestinal per-\nmeability and activate the intestine–brain–liver–neural\naxis to regulate glucose homeostasis27.\nResearch on depression usually focuses on the central\n\nnervous system and peripheral nervous system, rather\nthan the liver. To the best of the authors’ knowledge, this\nis the first study to apply untargeted metabolomics\napproaches to the liver of a FMT mouse model of\ndepression.\nLiver has a unique vascular system and its blood mainly\n\ncomes from intestine through the portal vein28. Due to\nthe system, liver is vulnerable to exposure to bacterial\nproducts. Despite profound interindividual variability,\nGram-negative bacteria, such as Bacteroidetes,\n\nFig. 2 Data on significant metabolites and energy metabolism. a Clustering analysis different metabolites in the liver (major depressive disorder\n(MDD) group vs. the control (CON) group). b Number of metabolites identified using the three complementary approaches in each super class. A\ntotal of 191 metabolites were identified using gas chromatography–mass spectrometry (GC–MS) (blue), nuclear magnetic resonance (NMR) (red),\nliquid chromatography–mass spectrometry (LC–MS) (green), or combined approaches (purple), and super classification was performed. c Summary of\nthe differential metabolites associated with glycolysis and the tricarboxylic acid (TCA) cycle\n\nLi et al. Translational Psychiatry  (2018) 8:34 Page 7 of 12\n\n\n\nEnterobacteriaceae, Alistipes, and Proteobacteria were\nstrongly increased in MDD patients compared with the\nhealthy individuals29. Furthermore, increased LPS from\nGram-negative bacteria induced endothelial hyperper-\nmeability and “leaky gut” in MDD patients30,31. The “leaky\ngut” increased translocation of gut-derived bacterial pro-\nducts and then stimulated innate immune system, which\nmay involve in the pathophysiology of MDD32. In this\nstudy, FMT from MDD patients may change gut perme-\nability, hence, liver was exposed to bacterial products and\npresented disturbed metabolism profile.\nIn this study, we used three complementary techniques\n\nin our untargeted metabolomics approach, these being\nGC–MS, NMR, and LC–MS. Using these techniques, 191\ndifferential metabolites were distinguished between mice\nlivers treated with “depression microbes” and “healthy\nmicrobes”. Importantly, just one metabolite (alanine) was\nidentified by two approaches. The application of com-\nplementary approaches to metabolomics for the char-\nacterization of liver metabolism is of value. The\n\nmetabolites identified included: (1) lipids (5-oxoproline\nand linolenic acid) and lipid metabolism-related mole-\ncules (α-glucose, β-glucose, and glycerol); (2) amino acids\n(glycine, proline, valine, isoleucine, lysine, and histidine);\nand (3) other metabolites (O-phosphorylethanolamine,\nputrescine, and trimethylamine N-oxide).\nThe amino acids, including glutamine, glycine, lysine,\n\nvaline, and isoleucine, which had significantly changed in\nthe mouse model of depression compared with CON\nmice. Some of these amino acids have an important role\nin brain function. Glutamine is a neurotransmitter that\nplays a crucial role in glutamatergic neurotransmission\nthrough contact with astrocytes and neurons in the\nglutamine–glutamate cycle33. Preclinical research has\nreported that glutamine deficiency in the prefrontal cortex\nand cerebellum increased depressive-like behavior34,35.\nWe found that glutamine significantly decreased in per-\nipheral blood mononuclear cells and the cerebellum of\nthe mouse model of depression, suggesting that it could\nbe a potential biomarker of depression35–37. We also\n\nFig. 3 Metabolite cross-talk in different regions and chronic unpredictive mild stress (CUMS) mouse model of depression. a Construction of\nthe aminoacyl-tRNA biosynthesis metabolism pathway in mice. The map was generated using the reference map from Kyoto Encyclopedia of Genes\nand Genomes (KEGG) (http://www.genome.jp/kegg/). Green boxes show enzymatic activities. b Venn diagram indicating the number of significant\nmetabolites in different parts of major depressive disorder (MDD) mice. c Venn diagram indicating the number of significant metabolites in the livers\nof the fecal microbiota transplantation (FMT) and CUMS mice models of depression. A common metabolite was hypoxanthine\n\nLi et al. Translational Psychiatry  (2018) 8:34 Page 8 of 12\n\n\n\n\nconducted metagenomics using murine cecum feces from\nthe same batch samples in this study, and relative abun-\ndance of the glutamate biosynthesis enzyme commission\nnumbers showed a contrary trend9. The decrease in glu-\ntamine may suggest that microbes can affect liver gluta-\nmate levels and may modulate depressive-like behavior.\nThe lysine level increased in MDD mice compared with\nCON mice. Recent studies report that lysine may affect\nneurotransmitters associated with anxiety and stress in\nthe rat38, whereas lysine fortification reduces anxiety and\nlessens stress in humans39. Lysine is a constituent of the\nserotonin receptor 4 antagonist, which can reduce the\n\nlevel of blood cortisol and the microbe–gut–brain stress\nresponse in pigs40. In previous studies, we found that\nlysine levels decreased in the serum of MDD patients41,\nand in the cerebellum and prefrontal cortex of CUMS\nmice35,42. Accordingly, increasing lysine may combat\ndepressive behavior and improve a person’s emotional\nstatus.\nMetabolism research reports that valine levels decrease\n\nin peripheral blood mononuclear cells and the serum of\ndrug-naïve MDD patients14,43. Similarly, alanine was\nreported to decrease in the serum of MDD patients, and\nmay be a potential urine biomarker for MDD patients44.\n\nFig. 4 The most significantly changed network between major depressive disorder (MDD) and control (CON) groups. Metabolites in red\nwere upregulated while those in green were downregulated in MDD mice. Solid lines show direct physical interactions (such as binding) between\nthe two parties. Dotted lines show indirect interactions or regulations between the two parties\n\nLi et al. Translational Psychiatry  (2018) 8:34 Page 9 of 12\n\n\n\nIn the current study, valine, isoleucine, and alanine\nincreased in MDD mice liver. Levels of the three amino\nacids showed no difference among the serum, hippo-\ncampus, and feces9. These results suggest that MDD\npatients and FMT mice accompanied amino-acid meta-\nbolism disturbed and the trends were not exactly same in\ndifferent parts. The liver is the center for substrate and\nenergy metabolism. Glucose is an important energy pro-\nvider, and in the current study, it was found to be\ndecreased in MDD mice compared with CON mice.\nOther metabolites involved in glycolysis and the tri-\ncarboxylic acid cycle were markedly downregulated, such\nas lactic acid (Fig. 4). Combined IPA and canonical\npathway analysis revealed glycogen degradation. These\nchanges indicate a disturbance in energy metabolism. In\nagreement with previous research, a deficiency in circu-\nlating glucose was observed with serum and urine meta-\nbolomics studies of MDD patients14,44. Also, levels of\nglucose were markedly decreased in the prefrontal cortex\nof LPS-induced mice17. Blass et al. reported two clinical\ncases in which patients with symptoms of depression\nshowed significant improvement in mood after 2 weeks\nadministration of supplemental malic acid and glucose45.\nZheng et al. conducted a metabolomics analysis of feces\nand serum using the same FMT mouse model of\ndepression and found increased levels of carbohydrate\nmetabolites in MDD mice9. Combining previous results\nwith the results of the current study suggest that\n“depression microbes” may lead to a glucose disorder in\nliver. As the brain consumes 25% of the total glucose\navailable in the body, the decrease in liver glucose may\nresult in depressive behavior.\nPhosphocreatine is a high-energy phosphate compound\n\nabundant in the central nervous system and functions as a\ntransporter in cell energy exchange. It can transfer high-\nenergy phosphate to ADP to provide ATP, generating\ncreatine. Creatinine is a non-enzymatic by-product of\ncreatine and phosphocreatine. In the current study,\nphosphocreatine showed a significant increase in the\nlivers of MDD mice compared with CON mice. Zheng\net al. reported that creatine in the serum of MDD patients\nwas significantly decreased14. We did not detect the sec-\nondary metabolite creatinine in the current study, but\nmetabolism research has reported that creatinine in the\nurine of MDD patients and in the cerebellum of CUMS\nmice decreased29,44. Upregulated phosphocreatine in the\nliver may be a compensatory energy source, providing\nbeneficial help to improve depressive behavior.\nThe findings suggest that disturbances to glycolysis and\n\nthe tricarboxylic acid cycle and the phosphocreatine–ATP\npathway support previous research suggesting that a dis-\nturbance in energy metabolism may participate in the\npathophysiology of depression, and the liver may play an\nimportant role.\n\nDisturbances to oxidative stress are reported to be\nassociated with the pathogenesis of MDD46. In the current\nstudy, we found that the metabolites glycine and glu-\ntathione were significantly upregulated in MDD mice.\nThese metabolites are involved in oxidative stress. As\nglutathione is the primary free radical scavenger in the\nbrain, lower glutathione levels compromise central ner-\nvous system anti-oxidative activity47. Additionally, lower\nlevels of glutathione and oxidative damage could con-\nstitute early signaling events in cell apoptosis48. Glycine\nhas been suggested to be a member of glutathione bio-\nsynthesis. In our previous metabolism research using the\nsame FMT mouse model of depression, we found that\nglutathione levels decreased in the prefrontal cortex and\nthe cecum, and glycine decreased in the hippocampus9.\nThe metabolites in different parts may show different\ntrends in diseased conditions. The elevated levels of glu-\ntathione in the liver suggest increased anti-oxidation\nactivity, which may provide protection from oxidative\nstress in MDD mice.\nDisturbances in lipid metabolism have been reported to\n\nbe associated with geriatric depression in elderly\npatients49 and in rodent models of depression50. In the\ncurrent study, lipid-related molecules (a total of 126; 66%\nof all metabolites) showed a tendency to change in the\nlivers of MDD mice. These molecules included O-phos-\nphorylethanolamine, glycerol, and arachidonic acid.\nGlycerol is the final product of triglyceride metabolism.\nThese findings suggest that MDD mice may have lipid\nmetabolism dysregulation. Combined proteomics of\nCUMS mice livers showed a high score for the Lipid\nMetabolism, Free Radical Scavenging and Molecule\nTransports network. Furthermore, common fecal and\nliver metabolites appeared to show disturbed lipid\nmetabolism. Disturbances in the metabolism of the three\nmajor nutrients in the MDD liver may account for\nthe high comorbidity between MDD and metabolic\nsyndrome51.\nThis study has some limitations. The findings and\n\nconclusions drawn need to be treated cautiously because\nof the risk for overestimation with the relatively small\nsample size. Second, we did not validate quantities and\nspecies of microbes. The potential mechanism behind the\nassociation between microbes and liver metabolism dis-\nturbance is unclear. Further, data were obtained from\nnaive mice, additional studies should use an adult animal\nmodel of depression and conduct in vitro studies. Finally,\nwe integrated information about metabolites trends from\ndifferent depressive models, organs, and regions as far as\npossible. However, the potential relationships are not\nclear and need further research. In future study, we will\nfocus on the mechanism of single strains inducing liver\nmetabolism disturbance and the relationship between gut\nmicrobiota and depression.\n\nLi et al. Translational Psychiatry  (2018) 8:34 Page 10 of 12\n\n\n\nConclusion\nIn this study, we developed and analyzed a FMT mouse\n\nmodel of depression, and the findings contribute to pre-\nvious studies on the involvement of the gut microbiota in\npsychiatric disorders. Using GC–MS, NMR, and LC–MS,\nwe identified 191 changed metabolites in the MDD mouse\nliver compared with CON mice. The study mainly focused\non three major disturbances in metabolism, these being\nassociated with lipid, amino acid, and energy metabolism.\nCombined analyses with proteomics of CUMS mice livers\nshowed a changed lipid network, suggestive of lipid dis-\norders in the livers of mouse models of depression.\nConjoint analyses of metabolites in different parts of the\nFMT model suggested that aminoacyl-tRNA biosynthesis\nsignificantly changed and metabolites in feces were\nmost closely associated with the liver. The findings sug-\ngest that “depression microbes” can disturb the liver and\ndifferent parts of the body carrying out metabolic func-\ntions, and help determine the relationship between the\nliver, microbes, and depression. It is possible that treat-\nment targeting microbes may be potential therapies for\nMDD.\n\nAcknowledgements\nThis work was supported by the National Key R\u0026D program of China (grant no.\n2017YFA0505700), the National Key R\u0026D program of China (grant no.\n2016YFC1307200), the National Youth Science Foundation (grant no.\n81601207), the China Postdoctoral Science Foundation (grant no.\n2017M612923), the Natural Science Foundation Project of China (grant no.\n81701360), the Chongqing Science \u0026 Technology Commission (CSTC2014kjrc-\nqnrc10004), and the Chongqing Science \u0026 Technology Commission\n(CSTC2017JCYJA0207). We thank Alexander Pishief, LLB, BBmedSc, from Liwen\nBianji, Edanz Group China (www.liwenbianji.cn/ac), for editing the English text\nof a draft of this manuscript.\n\nAuthor details\n1Institute of Neuroscience and the Collaborative Innovation Center for Brain\nScience, Chongqing Medical University, Chongqing, China. 2Chongqing Key\nLaboratory of Neurobiology, Chongqing, China. 3Key Laboratory of Clinical\nLaboratory Diagnostics (Ministry of Education), Chongqing, China.\n4Department of Laboratory Animal Science, College of Basic Medical Sciences,\nThird Military Medical University, Chongqing, China. 5Department of\nNeurology, Yongchuan Hospital, Chongqing Medical University, Chongqing,\nChina. 6Department of Neurology, The First Affiliated Hospital of Chongqing\nMedical University, Chongqing, China. 7South Australian Health and Medical\nResearch Institute, Mind and Brain Theme, Flinders University, Adelaide, SA,\nAustralia\n\nConflict of interest\nThe authors declare that they have no conflict of interest.\n\nPublisher\u0027s note\nSpringer Nature remains neutral with regard to jurisdictional claims in\npublished maps and institutional affiliations.\n\nSupplementary Information accompanies this paper at https://doi.org/\n10.1038/s41398-017-0078-2.\n\nReceived: 8 August 2017 Revised: 1 November 2017 Accepted: 13\nNovember 2017\n\nReferences\n1. Reynolds, E. H. Brain and mind: a challenge for WHO. Lancet 361, 1924–1925\n\n(2003).\n2. Guilloux, J. P. et al. Molecular evidence for BDNF- and GABA-related dys-\n\nfunctions in the amygdala of female subjects with major depression. Mol.\nPsychiatry 17, 1130–1142 (2012).\n\n3. Haj-Mirzaian, A. et al. Lithium attenuated the depressant and anxiogenic effect\nof juvenile social stress through mitigating the negative impact of interlukin-\n1beta and nitric oxide on hypothalamic-pituitary-adrenal axis function. Neu-\nroscience 315, 271–285 (2016).\n\n4. Mitchell, N. D. \u0026 Baker, G. B. An update on the role of glutamate in the\npathophysiology of depression. Acta Psychiatr. Scand. 122, 192–210 (2010).\n\n5. Rogers, G. B. et al. From gut dysbiosis to altered brain function and mental\nillness: mechanisms and pathways. Mol. Psychiatry 21, 738–748 (2016).\n\n6. Hoban, A. E. et al. Regulation of prefrontal cortex myelination by the micro-\nbiota. Transl. Psychiatry 6, e774 (2016).\n\n7. Moloney, R. D., Desbonnet, L., Clarke, G., Dinan, T. G. \u0026 Cryan, J. F. The\nmicrobiome: stress, health and disease. Mamm. Genome 25, 49–74 (2014).\n\n8. Zeng, L. et al. Microbiota modulates behavior and protein kinase C mediated\ncAMP response element-binding protein signaling. Sci. Rep. 6, 29998 (2016).\n\n9. Zheng, P. et al. Gut microbiome remodeling induces depressive-like behaviors\nthrough a pathway mediated by the host’s metabolism. Mol. Psychiatry 21,\n786–796 (2016).\n\n10. Cryan, J. F. \u0026 Dinan, T. G. Mind-altering microorganisms: the impact of the gut\nmicrobiota on brain and behaviour. Nat. Rev. Neurosci. 13, 701–712 (2012).\n\n11. Le Strat, Y., Le Foll, B. \u0026 Dubertret, C. Major depression and suicide attempts in\npatients with liver disease in the United States. Liver. Int. 35, 1910–1916 (2015).\n\n12. Nicholson, J. K. \u0026 Lindon, J. C. Systems biology: metabonomics. Nature 455,\n1054–1056 (2008).\n\n13. Qi Y. et al. Urinary metabolite markers of precocious puberty. Mol Cell Pro-\nteomics; 11, M111.011072 (2012).\n\n14. Zheng, P. et al. Plasma metabonomics as a novel diagnostic approach for\nmajor depressive disorder. J. Prote. Res. 11, 1741–1748 (2012).\n\n15. Chen, J. J. et al. Divergent urinary metabolic phenotypes between major\ndepressive disorder and bipolar disorder identified by a combined GC-MS and\nNMR spectroscopic metabonomic approach. J. Prote. Res. 14, 3382–3389\n(2015).\n\n16. Li, J. et al. Peripheral blood mononuclear cell-based metabolomic profiling of\na chronic unpredictable mild stress rat model of depression. Mol. Biosyst. 10,\n2994–3001 (2014).\n\n17. Wu, Y. et al. Metabolomic analysis reveals metabolic disturbances in the\nprefrontal cortex of the lipopolysaccharide-induced mouse model of\ndepression. Behav. Brain. Res. 308, 115–127 (2016).\n\n18. Ladep, N. G., Obindo, T. J., Audu, M. D., Okeke, E. N. \u0026 Malu, A. O. Depression in\npatients with irritable bowel syndrome in Jos, Nigeria. World J. Gastroenterol.\n12, 7844–7847 (2007).\n\n19. Chen, J. J. et al. Combined application of NMR- and GC-MS-based metabo-\nnomics yields a superior urinary biomarker panel for bipolar disorder. Sci. Rep.\n4, 5855 (2014).\n\n20. Bouatra, S. et al. The human urine metabolome. PLoS. ONE 8, e73076 (2013).\n21. Li, Y. et al. Metabonomics study of essential hypertension and its chinese\n\nmedicine subtypes by using gas chromatography-mass spectrometry and\nnuclear magnetic resonance spectroscopy. Evid. Based Complement. Altern.\nMed. 2013, 625906 (2013).\n\n22. Wu, Y. et al. Quantitative proteomics analysis of the liver reveals immune\nregulation and lipid metabolism dysregulation in a mouse model of\ndepression. Behav. Brain. Res. 311, 330–339 (2016).\n\n23. Jia, H. M. et al. Chronic unpredictive mild stress leads to altered hepatic\nmetabolic profile and gene expression. Sci. Rep. 6, 23441 (2016).\n\n24. Devaux, P. F. Static and dynamic lipid asymmetry in cell membranes. Bio-\nchemistry 30, 1163–1173 (1991).\n\n25. Mayer, E. A. Gut feelings: the emerging biology of gut-brain communication.\nNat. Rev. Neurosci. 12, 453 (2011).\n\n26. Hanstock, T. L., Mallet, P. E. \u0026 Clayton, E. H. Increased plasma D-lactic acid\nassociated with impaired memory in rats. Physiol. Behav. 101, 653–659 (2010).\n\n27. Cabou, C. et al. Central insulin regulates heart rate and arterial blood flow: an\nendothelial nitric oxide synthase-dependent mechanism altered during dia-\nbetes. Diabetes 56, 2872–2877 (2007).\n\n28. Seki, E. \u0026 Schnabl, B. Role of innate immunity and the microbiota in liver\nfibrosis: crosstalk between the liver and gut. J. Physiol. 590, 447–458 (2012).\n\nLi et al. Translational Psychiatry  (2018) 8:34 Page 11 of 12\n\n\n\n\n\n\n29. Caballero, S. \u0026 Pamer, E. G. Microbiota-mediated inflammation and anti-\nmicrobial defense in the intestine. Annu. Rev. Immunol. 33, 227–256 (2015).\n\n30. Kiecolt-Glaser, J. K., Derry, H. M. \u0026 Fagundes, C. P. Inflammation: depression\nfans the flames and feasts on the heat. Am. J. Psychiatry 172, 1075–1091\n(2015).\n\n31. Chatterjee, A. et al. Heat shock protein 90 inhibitors attenuate LPS-induced\nendothelial hyperpermeability. Am. J. Physiol. Lung. Cell. Mol. Physiol. 294,\n755–763 (2008).\n\n32. Maes, M., Kubera, M. \u0026 Leunis, J. C. The gut-brain barrier in major depression:\nintestinal mucosal dysfunction with an increased translocation of LPS from\ngram negative enterobacteria (leaky gut) plays a role in the inflammatory\npathophysiology of depression. Neuro. Endocrinol. Lett. 29, 117–124 (2008).\n\n33. Eid, T., Tu, N., Lee, T. S. \u0026 Lai, J. C. Regulation of astrocyte glutamine synthetase\nin epilepsy. Neurochem. Int. 63, 670–681 (2013).\n\n34. Lee, Y. et al. Glutamine deficiency in the prefrontal cortex increases depressive-\nlike behaviours in male mice. J. Psychiatry Neurosci. 38, 183–191 (2013).\n\n35. Shao, W. H. et al. Combined metabolomics and proteomics analysis of major\ndepression in an animal model: perturbed energy metabolism in the chronic\nmild stressed rat cerebellum. OMICS 19, 383–392 (2015).\n\n36. Li, J. et al. Potential antidepressant and resilience mechanism revealed by\nmetabolomic study on peripheral blood mononuclear cells of stress resilient\nrats. Behav. Brain. Res. 320, 12–20 (2016).\n\n37. Yang, P. et al. Alterations of amino acid level in depressed rat brain. Korean J.\nPhysiol. Pharmacol. 18, 371–376 (2014).\n\n38. Smriga, M. \u0026 Torii, K. L-lysine acts like a partial serotonin receptor 4 antagonist\nand inhibits serotonin-mediated intestinal pathologies and anxiety in rats.\nProc. Natl. Acad. Sci. USA 100, 15370–15375 (2003).\n\n39. Smriga, M., Ghosh, S., Mouneimne, Y., Pellett, P. L. \u0026 Scrimshaw, N. S. Lysine\nfortification reduces anxiety and lessens stress in family members in eco-\nnomically weak communities in Northwest Syria. Proc. Natl. Acad. Sci. USA 101,\n8285–8288 (2004).\n\n40. Srinongkote, S., Smriga, M., Nakagawa, K. \u0026 Toride, Y. A diet fortified with L-\nlysine and L-arginine reduces plasma cortisol and blocks anxiogenic response\nto transportation in pigs. Nutr. Neurosci. 6, 283–289 (2003).\n\n41. Xu, H. B. et al. Potential clinical utility of plasma amino acid profiling in\nthe detection of major depressive disorder. Psychiatry Res. 200, 1054–1057\n(2012).\n\n42. Liu, L. et al. The identification of metabolic disturbances in the prefrontal\ncortex of the chronic restraint stress rat model of depression. Behav. Brain. Res.\n305, 148–156 (2016).\n\n43. Liu, M. L. et al. Severe disturbance of glucose metabolism in peripheral blood\nmononuclear cells of schizophrenia patients: a targeted metabolomic study. J.\nTransl. Med. 13, 226 (2015).\n\n44. Zheng, P. et al. Identification and validation of urinary metabolite biomarkers\nfor major depressive disorder. Mol. Cell. Proteom. 12, 207–214 (2013).\n\n45. Blass, J. P. Nutritional supplement for cerebral metabolic insufficiencies. US\n(2003).\n\n46. Michel, T. M., Pulschen, D. \u0026 Thome, J. The role of oxidative stress in depressive\ndisorders. Curr. Pharm. Des. 18, 5890–5899 (2012).\n\n47. Gawryluk, J. W. et al. Prefrontal cortex glutathione S-transferase levels in\npatients with bipolar disorder, major depression and schizophrenia. Int. J.\nNeuropsychopharmacol. 14, 1069–1074 (2011).\n\n48. Schulz, J. B., Lindenau, J., Seyfried, J. \u0026 Dichgans, J. Glutathione, oxidative stress\nand neurodegeneration. Eur. J. Biochem. 267, 4904–4911 (2000).\n\n49. Paige, L. A., Mitchell, M. W., Krishnan, K. R., Kaddurah-Daouk, R. \u0026 Steffens, D. C.\nA preliminary metabolomic analysis of older adults with and without\ndepression. Int. J. Geriatr. Psychiatry 22, 418–423 (2007).\n\n50. Chen, G. et al. Amino acid metabolic dysfunction revealed in the\nprefrontal cortex of a rat model of depression. Behav. Brain. Res. 278, 286–292\n(2015).\n\n51. Vaccarino, V. et al. Depression, the metabolic syndrome and cardiovascular risk.\nPsychosom. Med. 70, 40–48 (2008).\n\nLi et al. Translational Psychiatry  (2018) 8:34 Page 12 of 12\n\n\n\tMetabolite identification in fecal microbiota transplantation mouse livers and combined proteomics with chronic unpredictive mild stress mouse livers\n\tIntroduction\n\tMaterials and methods\n\tEthical considerations\n\tFMT and sample collection\n\tGas chromatography\u0026#x02013;nobreakmass spectrometry\n\tNuclear magnetic resonance\n\tLiquid chromatography\u0026#x02013;nobreakmass spectrometry\n\tMetabolomics function and pathway analyses\n\tMolecular network analysis\n\n\tResults\n\tBehavioral tests\n\tMetabolites showing a significant difference between MDD and CON mice\n\tClassification of the significantly changed metabolites\n\tMetabolites analyzed between FMT and CON mice\n\tSystem integrated analysis in FMT mice\n\tCombined analysis of FMT and CUMS mice\n\tMolecular network analysis of FMT mice using IPA\n\tMolecular network analysis of FMT and CUMS mice by IPA\n\n\tDiscussion\n\tConclusion\n\tACKNOWLEDGMENTS\n\n\n\n\n",
+    "denotations": [
+      {
+        "span": {
+          "begin": 131,
+          "end": 141
+        },
+        "word_form": "Metabolite",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 193,
+          "end": 198
+        },
+        "word_form": "mouse",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 268,
+          "end": 273
+        },
+        "word_form": "mouse",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 722,
+          "end": 731
+        },
+        "word_form": "bacterial",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 845,
+          "end": 849
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 902,
+          "end": 910
+        },
+        "word_form": "patients",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 1212,
+          "end": 1223
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 1212,
+          "end": 1223
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 1252,
+          "end": 1256
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 1276,
+          "end": 1280
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 1300,
+          "end": 1304
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 1310,
+          "end": 1314
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 1343,
+          "end": 1354
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 1343,
+          "end": 1354
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 1380,
+          "end": 1391
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 1380,
+          "end": 1391
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 1399,
+          "end": 1410
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 1399,
+          "end": 1410
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 1431,
+          "end": 1436
+        },
+        "word_form": "lipid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 1524,
+          "end": 1532
+        },
+        "word_form": "proteins",
+        "category": "Protein"
+      },
+      {
+        "span": {
+          "begin": 1817,
+          "end": 1822
+        },
+        "word_form": "mouse",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 1989,
+          "end": 2000
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 2006,
+          "end": 2043
+        },
+        "word_form": "fecal microbiota transplantation mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 2059,
+          "end": 2073
+        },
+        "word_form": "aminoacyl-tRNA",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 2119,
+          "end": 2130
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 2656,
+          "end": 2665
+        },
+        "word_form": "glutamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 4338,
+          "end": 4344
+        },
+        "word_form": "humans",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 4454,
+          "end": 4459
+        },
+        "word_form": "mouse",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 4579,
+          "end": 4587
+        },
+        "word_form": "patients",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 4640,
+          "end": 4645
+        },
+        "word_form": "mouse",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 4666,
+          "end": 4675
+        },
+        "word_form": "bacterial",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 4891,
+          "end": 4899
+        },
+        "word_form": "glycogen",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 4940,
+          "end": 4948
+        },
+        "word_form": "proteins",
+        "category": "Protein"
+      },
+      {
+        "span": {
+          "begin": 5280,
+          "end": 5288
+        },
+        "word_form": "patients",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 5331,
+          "end": 5341
+        },
+        "word_form": "saccharide",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 5343,
+          "end": 5346
+        },
+        "word_form": "LPS",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 5356,
+          "end": 5361
+        },
+        "word_form": "mouse",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 5426,
+          "end": 5437
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 5456,
+          "end": 5464
+        },
+        "word_form": "patients",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 5640,
+          "end": 5643
+        },
+        "word_form": "MDD",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 5777,
+          "end": 5780
+        },
+        "word_form": "MDD",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 5928,
+          "end": 5933
+        },
+        "word_form": "mouse",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 5960,
+          "end": 5971
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 5960,
+          "end": 5971
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 5997,
+          "end": 6011
+        },
+        "word_form": "carbohy-\ndrate",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 6013,
+          "end": 6023
+        },
+        "word_form": "amino acid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 6746,
+          "end": 6751
+        },
+        "word_form": "mouse",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 6812,
+          "end": 6818
+        },
+        "word_form": "Animal",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 7005,
+          "end": 7009
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 7046,
+          "end": 7052
+        },
+        "word_form": "Animal",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 7203,
+          "end": 7207
+        },
+        "word_form": "Mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 7245,
+          "end": 7258
+        },
+        "word_form": "polypropylene",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 7289,
+          "end": 7294
+        },
+        "word_form": "water",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 7586,
+          "end": 7594
+        },
+        "word_form": "patients",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 7921,
+          "end": 7927
+        },
+        "word_form": "saline",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 8002,
+          "end": 8006
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 8145,
+          "end": 8149
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 8275,
+          "end": 8280
+        },
+        "word_form": "mouse",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 8408,
+          "end": 8430
+        },
+        "word_form": "pyridine\nhydrochloride",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 8452,
+          "end": 8466
+        },
+        "word_form": "trimethylsilyl",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 8472,
+          "end": 8487
+        },
+        "word_form": "fluoroacetamide",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 8502,
+          "end": 8523
+        },
+        "word_form": "trimethylchlorosilane",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 8727,
+          "end": 8746
+        },
+        "word_form": "chlorophenylalanine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 8760,
+          "end": 8768
+        },
+        "word_form": "methanol",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 8912,
+          "end": 8926
+        },
+        "word_form": "methanol–water",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 9060,
+          "end": 9065
+        },
+        "word_form": "10min",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 9224,
+          "end": 9229
+        },
+        "word_form": "water",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 9705,
+          "end": 9709
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 10025,
+          "end": 10028
+        },
+        "word_form": "VIP",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 10283,
+          "end": 10311
+        },
+        "word_form": "l-2-chloro-L-phe-\nnylalanine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 10325,
+          "end": 10333
+        },
+        "word_form": "methanol",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 10360,
+          "end": 10374
+        },
+        "word_form": "methanol–water",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 10450,
+          "end": 10455
+        },
+        "word_form": "20min",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 11003,
+          "end": 11010
+        },
+        "word_form": "OPLS-DA",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 11065,
+          "end": 11069
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 11088,
+          "end": 11092
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 11189,
+          "end": 11192
+        },
+        "word_form": "VIP",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 11322,
+          "end": 11325
+        },
+        "word_form": "IPA",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 11505,
+          "end": 11510
+        },
+        "word_form": "Human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 11560,
+          "end": 11566
+        },
+        "word_form": "Metlin",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 11924,
+          "end": 11929
+        },
+        "word_form": "mouse",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 11970,
+          "end": 11975
+        },
+        "word_form": "lipid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 12063,
+          "end": 12068
+        },
+        "word_form": "mouse",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 12096,
+          "end": 12099
+        },
+        "word_form": "IPA",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 12101,
+          "end": 12104
+        },
+        "word_form": "IPA",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 12734,
+          "end": 12738
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 12772,
+          "end": 12776
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 12814,
+          "end": 12818
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 12874,
+          "end": 12879
+        },
+        "word_form": "mouse",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 12902,
+          "end": 12913
+        },
+        "word_form": "Metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 12967,
+          "end": 12971
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 12972,
+          "end": 12983
+        },
+        "word_form": "Metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 13007,
+          "end": 13011
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 13027,
+          "end": 13034
+        },
+        "word_form": "OPLS-DA",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 13104,
+          "end": 13108
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 13117,
+          "end": 13121
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 13594,
+          "end": 13598
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 13809,
+          "end": 13816
+        },
+        "word_form": "OPLS-DA",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 13889,
+          "end": 13896
+        },
+        "word_form": "OPLS-DA",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 13947,
+          "end": 13958
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 13999,
+          "end": 14003
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 14097,
+          "end": 14101
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 14120,
+          "end": 14124
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 14142,
+          "end": 14153
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 14142,
+          "end": 14153
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14247,
+          "end": 14258
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14300,
+          "end": 14311
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 14300,
+          "end": 14311
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14381,
+          "end": 14386
+        },
+        "word_form": "Lipid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14400,
+          "end": 14414
+        },
+        "word_form": "linolenic acid",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 14400,
+          "end": 14414
+        },
+        "word_form": "linolenic acid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14416,
+          "end": 14426
+        },
+        "word_form": "oxoproline",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14428,
+          "end": 14440
+        },
+        "word_form": "maltotriitol",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14442,
+          "end": 14458
+        },
+        "word_form": "arachidonic acid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14460,
+          "end": 14486
+        },
+        "word_form": "13-hydroxy-docosanoic\nacid",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 14460,
+          "end": 14486
+        },
+        "word_form": "13-hydroxy-docosanoic\nacid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14496,
+          "end": 14507
+        },
+        "word_form": "Amino acids",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14509,
+          "end": 14517
+        },
+        "word_form": "peptides",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14543,
+          "end": 14550
+        },
+        "word_form": "alanine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14552,
+          "end": 14562
+        },
+        "word_form": "isoleucine",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 14552,
+          "end": 14562
+        },
+        "word_form": "isoleucine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14564,
+          "end": 14573
+        },
+        "word_form": "glutamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14583,
+          "end": 14601
+        },
+        "word_form": "iminodiacetic\nacid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14615,
+          "end": 14628
+        },
+        "word_form": "Carbohydrates",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14633,
+          "end": 14645
+        },
+        "word_form": "Carbohydrate",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14660,
+          "end": 14668
+        },
+        "word_form": "glycogen",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14670,
+          "end": 14681
+        },
+        "word_form": "glutathione",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14683,
+          "end": 14693
+        },
+        "word_form": "D-arabitol",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14725,
+          "end": 14737
+        },
+        "word_form": "ethanolamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14739,
+          "end": 14753
+        },
+        "word_form": "trimethylamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14813,
+          "end": 14831
+        },
+        "word_form": "12\n\n\n\n\n\n\n\n\nN-oxide",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14833,
+          "end": 14847
+        },
+        "word_form": "phosphocholine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14879,
+          "end": 14890
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 14879,
+          "end": 14890
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14980,
+          "end": 14985
+        },
+        "word_form": "Lipid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 15009,
+          "end": 15014
+        },
+        "word_form": "Lipid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 15035,
+          "end": 15046
+        },
+        "word_form": "Amino acids",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 15065,
+          "end": 15076
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 15065,
+          "end": 15076
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 15123,
+          "end": 15134
+        },
+        "word_form": "Metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 15123,
+          "end": 15134
+        },
+        "word_form": "Metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 15164,
+          "end": 15168
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 15268,
+          "end": 15272
+        },
+        "word_form": "KEGG",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 15278,
+          "end": 15281
+        },
+        "word_form": "IPA",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 15415,
+          "end": 15419
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 15498,
+          "end": 15505
+        },
+        "word_form": "OPLS-DA",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 16123,
+          "end": 16133
+        },
+        "word_form": "metabolite",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 16211,
+          "end": 16222
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 16211,
+          "end": 16222
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 16254,
+          "end": 16265
+        },
+        "word_form": "Metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 16254,
+          "end": 16265
+        },
+        "word_form": "Metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 16471,
+          "end": 16482
+        },
+        "word_form": "Metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 16608,
+          "end": 16620
+        },
+        "word_form": "Ethanolamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 16649,
+          "end": 16663
+        },
+        "word_form": "Trimetlylamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 16782,
+          "end": 16840
+        },
+        "word_form": "Putrescine 1.16 1.25 – HMDB01414 GC–MS 0.03 ↑\n\nAmino acids",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 16842,
+          "end": 16850
+        },
+        "word_form": "peptides",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 16865,
+          "end": 16872
+        },
+        "word_form": "Alanine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 16901,
+          "end": 16908
+        },
+        "word_form": "Glycine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 16937,
+          "end": 16945
+        },
+        "word_form": "Glycerol",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 16977,
+          "end": 16989
+        },
+        "word_form": "Hypoxanthine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17018,
+          "end": 17027
+        },
+        "word_form": "Histidine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17092,
+          "end": 17107
+        },
+        "word_form": "Phosphocreatine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17184,
+          "end": 17191
+        },
+        "word_form": "Alanine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17228,
+          "end": 17235
+        },
+        "word_form": "Proline",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17272,
+          "end": 17282
+        },
+        "word_form": "Isoleucine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17319,
+          "end": 17328
+        },
+        "word_form": "Glutamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17365,
+          "end": 17371
+        },
+        "word_form": "Valine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17408,
+          "end": 17430
+        },
+        "word_form": "3-Aminoisobutyric acid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17467,
+          "end": 17480
+        },
+        "word_form": "Carbohydrates",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17485,
+          "end": 17497
+        },
+        "word_form": "carbohydrate",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17585,
+          "end": 17596
+        },
+        "word_form": "Glutathione",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17667,
+          "end": 17677
+        },
+        "word_form": "D-Arabitol",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17714,
+          "end": 17724
+        },
+        "word_form": "Galactinol",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17738,
+          "end": 17747
+        },
+        "word_form": "HMDB05826",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17775,
+          "end": 17786
+        },
+        "word_form": "Nucleotides",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17801,
+          "end": 17808
+        },
+        "word_form": "Inosine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17837,
+          "end": 17864
+        },
+        "word_form": "Uridine diphosphate–glucose",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17929,
+          "end": 17951
+        },
+        "word_form": "Lipids\n\nLinolenic acid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17988,
+          "end": 17998
+        },
+        "word_form": "Oxoproline",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 18011,
+          "end": 18020
+        },
+        "word_form": "HMDB08177",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 18035,
+          "end": 18047
+        },
+        "word_form": "Maltotriitol",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 18060,
+          "end": 18069
+        },
+        "word_form": "HMDB15224",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 18084,
+          "end": 18122
+        },
+        "word_form": "Organic acids and derivatives\n\nLactate",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 18151,
+          "end": 18168
+        },
+        "word_form": "3-Hydroxybutyrate",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 18265,
+          "end": 18269
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 18393,
+          "end": 18412
+        },
+        "word_form": "glycerophospholipid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 18496,
+          "end": 18499
+        },
+        "word_form": "IPA",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 18547,
+          "end": 18565
+        },
+        "word_form": "glutamate receptor",
+        "category": "Protein"
+      },
+      {
+        "span": {
+          "begin": 18588,
+          "end": 18602
+        },
+        "word_form": "16\nmetabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 18679,
+          "end": 18697
+        },
+        "word_form": "tricarboxylic acid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 18750,
+          "end": 18754
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 18900,
+          "end": 18911
+        },
+        "word_form": "amino acids",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 18912,
+          "end": 18922
+        },
+        "word_form": "asparagine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 18924,
+          "end": 18933
+        },
+        "word_form": "glutamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 18935,
+          "end": 18945
+        },
+        "word_form": "isoleucine",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 18935,
+          "end": 18945
+        },
+        "word_form": "isoleucine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 18947,
+          "end": 18954
+        },
+        "word_form": "proline",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 18947,
+          "end": 18954
+        },
+        "word_form": "proline",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 18956,
+          "end": 18963
+        },
+        "word_form": "leucine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 18969,
+          "end": 18976
+        },
+        "word_form": "glycine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 19000,
+          "end": 19014
+        },
+        "word_form": "aminoacyl-tRNA",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 19179,
+          "end": 19187
+        },
+        "word_form": "FMT mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 19214,
+          "end": 19233
+        },
+        "word_form": "nine\nmetabolites in",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 19214,
+          "end": 19230
+        },
+        "word_form": "nine\nmetabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 19322,
+          "end": 19327
+        },
+        "word_form": "lipid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 19400,
+          "end": 19404
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 19405,
+          "end": 19416
+        },
+        "word_form": "Metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 19405,
+          "end": 19416
+        },
+        "word_form": "Metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 19492,
+          "end": 19496
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 19577,
+          "end": 19588
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 19577,
+          "end": 19588
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 19599,
+          "end": 19604
+        },
+        "word_form": "lipid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 19641,
+          "end": 19660
+        },
+        "word_form": "glycerophospholipid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 19693,
+          "end": 19697
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 19729,
+          "end": 19733
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 19756,
+          "end": 19775
+        },
+        "word_form": "Glycerophospholipid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 19809,
+          "end": 19829
+        },
+        "word_form": "phatidylethanolamine",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 19809,
+          "end": 19829
+        },
+        "word_form": "phatidylethanolamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 19831,
+          "end": 19833
+        },
+        "word_form": "PE",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 19831,
+          "end": 19833
+        },
+        "word_form": "PE",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 19836,
+          "end": 19855
+        },
+        "word_form": "phosphatidylcholine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 19857,
+          "end": 19859
+        },
+        "word_form": "PC",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 19862,
+          "end": 19879
+        },
+        "word_form": "phosphatidic acid",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 19862,
+          "end": 19879
+        },
+        "word_form": "phosphatidic acid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 19881,
+          "end": 19883
+        },
+        "word_form": "PA",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 19881,
+          "end": 19883
+        },
+        "word_form": "PA",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 19890,
+          "end": 19907
+        },
+        "word_form": "phosphoinositides",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 19909,
+          "end": 19911
+        },
+        "word_form": "PS",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 19909,
+          "end": 19911
+        },
+        "word_form": "PS",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 19914,
+          "end": 19916
+        },
+        "word_form": "PC",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 20045,
+          "end": 20047
+        },
+        "word_form": "PE",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 20129,
+          "end": 20150
+        },
+        "word_form": "glycer-\nophospholipid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 20397,
+          "end": 20401
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 20408,
+          "end": 20413
+        },
+        "word_form": "IPA\nA",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 20427,
+          "end": 20438
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 20538,
+          "end": 20541
+        },
+        "word_form": "IPA",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 20552,
+          "end": 20557
+        },
+        "word_form": "Lipid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 20679,
+          "end": 20694
+        },
+        "word_form": "21\nmetabolites,",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 20679,
+          "end": 20693
+        },
+        "word_form": "21\nmetabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 20705,
+          "end": 20716
+        },
+        "word_form": "L-glutamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 20718,
+          "end": 20732
+        },
+        "word_form": "linolenic acid",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 20718,
+          "end": 20732
+        },
+        "word_form": "linolenic acid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 20734,
+          "end": 20740
+        },
+        "word_form": "lysine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 20742,
+          "end": 20759
+        },
+        "word_form": "phosphorylcholine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 20767,
+          "end": 20776
+        },
+        "word_form": "L-proline",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 20782,
+          "end": 20790
+        },
+        "word_form": "glycogen",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 20879,
+          "end": 20883
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 20887,
+          "end": 20890
+        },
+        "word_form": "IPA",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 21016,
+          "end": 21024
+        },
+        "word_form": "proteins",
+        "category": "Protein"
+      },
+      {
+        "span": {
+          "begin": 21134,
+          "end": 21137
+        },
+        "word_form": "IPA",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 21431,
+          "end": 21444
+        },
+        "word_form": "Succinic acid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 21457,
+          "end": 21466
+        },
+        "word_form": "HMDB00254",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 21509,
+          "end": 21533
+        },
+        "word_form": "O-phosphorylethanolamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 21570,
+          "end": 21582
+        },
+        "word_form": "Phosphomycin",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 21671,
+          "end": 21683
+        },
+        "word_form": "Hypoxanthine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 21720,
+          "end": 21728
+        },
+        "word_form": "Xanthine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 21766,
+          "end": 21786
+        },
+        "word_form": "glycerol 1-phosphate",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 21884,
+          "end": 21889
+        },
+        "word_form": "Human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 21926,
+          "end": 21937
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 22772,
+          "end": 22783
+        },
+        "word_form": "lipoprotein",
+        "category": "Protein"
+      },
+      {
+        "span": {
+          "begin": 22949,
+          "end": 22957
+        },
+        "word_form": "Glycogen",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 22974,
+          "end": 22984
+        },
+        "word_form": "Tryptophan",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 23444,
+          "end": 23455
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 23519,
+          "end": 23531
+        },
+        "word_form": "lactic\n\nacid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 23533,
+          "end": 23546
+        },
+        "word_form": "organic acids",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 23548,
+          "end": 23558
+        },
+        "word_form": "tryptophan",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 23564,
+          "end": 23578
+        },
+        "word_form": "propionic acid",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 23564,
+          "end": 23578
+        },
+        "word_form": "propionic acid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 23645,
+          "end": 23656
+        },
+        "word_form": "fatty acids",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 23658,
+          "end": 23661
+        },
+        "word_form": "LPS",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 23658,
+          "end": 23661
+        },
+        "word_form": "LPS",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 23663,
+          "end": 23676
+        },
+        "word_form": "peptidoglycan",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 23678,
+          "end": 23691
+        },
+        "word_form": "acylglycerols",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 23693,
+          "end": 23706
+        },
+        "word_form": "sphingomyelin",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 23712,
+          "end": 23723
+        },
+        "word_form": "cholesterol",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 23712,
+          "end": 23723
+        },
+        "word_form": "cholesterol",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 23824,
+          "end": 23831
+        },
+        "word_form": "glucose",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 24286,
+          "end": 24295
+        },
+        "word_form": "bacterial",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 24366,
+          "end": 24374
+        },
+        "word_form": "bacteria",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 24427,
+          "end": 24438
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 24427,
+          "end": 24438
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 24600,
+          "end": 24611
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 24600,
+          "end": 24611
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 24696,
+          "end": 24711
+        },
+        "word_form": "191 metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 24987,
+          "end": 24998
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 25034,
+          "end": 25052
+        },
+        "word_form": "tricarboxylic acid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 25054,
+          "end": 25057
+        },
+        "word_form": "TCA",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 25130,
+          "end": 25148
+        },
+        "word_form": "Enterobacteriaceae",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 25165,
+          "end": 25179
+        },
+        "word_form": "Proteobacteria",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 25211,
+          "end": 25219
+        },
+        "word_form": "patients",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 25284,
+          "end": 25287
+        },
+        "word_form": "LPS",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 25284,
+          "end": 25287
+        },
+        "word_form": "LPS",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 25307,
+          "end": 25315
+        },
+        "word_form": "bacteria",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 25449,
+          "end": 25458
+        },
+        "word_form": "bacterial",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 25556,
+          "end": 25561
+        },
+        "word_form": "MDD32",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 25591,
+          "end": 25599
+        },
+        "word_form": "patients",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 25659,
+          "end": 25668
+        },
+        "word_form": "bacterial",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 25894,
+          "end": 25905
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 25933,
+          "end": 25937
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 26038,
+          "end": 26045
+        },
+        "word_form": "alanine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26208,
+          "end": 26219
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 26245,
+          "end": 26251
+        },
+        "word_form": "lipids",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26253,
+          "end": 26265
+        },
+        "word_form": "5-oxoproline",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26270,
+          "end": 26284
+        },
+        "word_form": "linolenic acid",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 26270,
+          "end": 26284
+        },
+        "word_form": "linolenic acid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26290,
+          "end": 26295
+        },
+        "word_form": "lipid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26328,
+          "end": 26337
+        },
+        "word_form": "α-glucose",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26339,
+          "end": 26348
+        },
+        "word_form": "β-glucose",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26354,
+          "end": 26362
+        },
+        "word_form": "glycerol",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26369,
+          "end": 26380
+        },
+        "word_form": "amino acids",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26382,
+          "end": 26389
+        },
+        "word_form": "glycine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26391,
+          "end": 26398
+        },
+        "word_form": "proline",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 26391,
+          "end": 26398
+        },
+        "word_form": "proline",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26400,
+          "end": 26406
+        },
+        "word_form": "valine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26408,
+          "end": 26418
+        },
+        "word_form": "isoleucine",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 26408,
+          "end": 26418
+        },
+        "word_form": "isoleucine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26420,
+          "end": 26426
+        },
+        "word_form": "lysine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26432,
+          "end": 26441
+        },
+        "word_form": "histidine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26458,
+          "end": 26469
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 26458,
+          "end": 26469
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26471,
+          "end": 26495
+        },
+        "word_form": "O-phosphorylethanolamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26497,
+          "end": 26507
+        },
+        "word_form": "putrescine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26513,
+          "end": 26535
+        },
+        "word_form": "trimethylamine N-oxide",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26542,
+          "end": 26553
+        },
+        "word_form": "amino acids",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26565,
+          "end": 26574
+        },
+        "word_form": "glutamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26576,
+          "end": 26583
+        },
+        "word_form": "glycine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26585,
+          "end": 26591
+        },
+        "word_form": "lysine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26594,
+          "end": 26600
+        },
+        "word_form": "valine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26606,
+          "end": 26616
+        },
+        "word_form": "isoleucine",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 26606,
+          "end": 26616
+        },
+        "word_form": "isoleucine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26657,
+          "end": 26662
+        },
+        "word_form": "mouse",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 26701,
+          "end": 26705
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 26721,
+          "end": 26732
+        },
+        "word_form": "amino acids",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26775,
+          "end": 26784
+        },
+        "word_form": "Glutamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26919,
+          "end": 26938
+        },
+        "word_form": "glutamine–glutamate",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26987,
+          "end": 26996
+        },
+        "word_form": "glutamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 27103,
+          "end": 27112
+        },
+        "word_form": "glutamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 27203,
+          "end": 27208
+        },
+        "word_form": "mouse",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 27403,
+          "end": 27408
+        },
+        "word_form": "mouse",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 27452,
+          "end": 27466
+        },
+        "word_form": "aminoacyl-tRNA",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 27502,
+          "end": 27506
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 27932,
+          "end": 27936
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 27968,
+          "end": 27978
+        },
+        "word_form": "metabolite",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 27968,
+          "end": 27978
+        },
+        "word_form": "metabolite",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 27983,
+          "end": 27995
+        },
+        "word_form": "hypoxanthine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 28072,
+          "end": 28084
+        },
+        "word_form": "metagenomics",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 28091,
+          "end": 28097
+        },
+        "word_form": "murine",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 28208,
+          "end": 28214
+        },
+        "word_form": "enzyme",
+        "category": "Protein"
+      },
+      {
+        "span": {
+          "begin": 28281,
+          "end": 28287
+        },
+        "word_form": "tamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 28397,
+          "end": 28403
+        },
+        "word_form": "lysine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 28427,
+          "end": 28431
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 28450,
+          "end": 28454
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 28483,
+          "end": 28489
+        },
+        "word_form": "lysine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 28576,
+          "end": 28582
+        },
+        "word_form": "lysine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 28635,
+          "end": 28643
+        },
+        "word_form": "humans39",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 28645,
+          "end": 28651
+        },
+        "word_form": "Lysine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 28676,
+          "end": 28694
+        },
+        "word_form": "serotonin receptor",
+        "category": "Protein"
+      },
+      {
+        "span": {
+          "begin": 28843,
+          "end": 28849
+        },
+        "word_form": "lysine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 28986,
+          "end": 28992
+        },
+        "word_form": "lysine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 29218,
+          "end": 29225
+        },
+        "word_form": "alanine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 29271,
+          "end": 29279
+        },
+        "word_form": "patients",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 29453,
+          "end": 29464
+        },
+        "word_form": "Metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 29453,
+          "end": 29464
+        },
+        "word_form": "Metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 29536,
+          "end": 29540
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 29805,
+          "end": 29815
+        },
+        "word_form": "isoleucine",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 29805,
+          "end": 29815
+        },
+        "word_form": "isoleucine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 29821,
+          "end": 29828
+        },
+        "word_form": "alanine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 29846,
+          "end": 29850
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 29878,
+          "end": 29889
+        },
+        "word_form": "amino\nacids",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 29986,
+          "end": 29994
+        },
+        "word_form": "patients",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 29999,
+          "end": 30007
+        },
+        "word_form": "FMT mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 30172,
+          "end": 30179
+        },
+        "word_form": "Glucose",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 30277,
+          "end": 30281
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 30300,
+          "end": 30304
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 30312,
+          "end": 30323
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 30360,
+          "end": 30375
+        },
+        "word_form": "carboxylic acid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 30419,
+          "end": 30430
+        },
+        "word_form": "lactic acid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 30450,
+          "end": 30453
+        },
+        "word_form": "IPA",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 30642,
+          "end": 30649
+        },
+        "word_form": "glucose",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 30745,
+          "end": 30752
+        },
+        "word_form": "glucose",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 30805,
+          "end": 30823
+        },
+        "word_form": "LPS-induced mice17",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 30875,
+          "end": 30883
+        },
+        "word_form": "patients",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 30996,
+          "end": 31006
+        },
+        "word_form": "malic acid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31011,
+          "end": 31020
+        },
+        "word_form": "glucose45",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31107,
+          "end": 31112
+        },
+        "word_form": "mouse",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 31163,
+          "end": 31190
+        },
+        "word_form": "carbohydrate\nmetabolites in",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31163,
+          "end": 31187
+        },
+        "word_form": "carbohydrate\nmetabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 31316,
+          "end": 31323
+        },
+        "word_form": "glucose",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31382,
+          "end": 31389
+        },
+        "word_form": "glucose",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31435,
+          "end": 31442
+        },
+        "word_form": "glucose",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31478,
+          "end": 31493
+        },
+        "word_form": "Phosphocreatine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31511,
+          "end": 31520
+        },
+        "word_form": "phosphate",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31655,
+          "end": 31664
+        },
+        "word_form": "phosphate",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31668,
+          "end": 31671
+        },
+        "word_form": "ADP",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31683,
+          "end": 31686
+        },
+        "word_form": "ATP",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 31683,
+          "end": 31686
+        },
+        "word_form": "ATP",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31699,
+          "end": 31707
+        },
+        "word_form": "creatine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31709,
+          "end": 31719
+        },
+        "word_form": "Creatinine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31753,
+          "end": 31761
+        },
+        "word_form": "creatine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31766,
+          "end": 31781
+        },
+        "word_form": "phosphocreatine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31805,
+          "end": 31820
+        },
+        "word_form": "phosphocreatine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31872,
+          "end": 31876
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 31895,
+          "end": 31899
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 31928,
+          "end": 31936
+        },
+        "word_form": "creatine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31957,
+          "end": 31965
+        },
+        "word_form": "patients",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 32031,
+          "end": 32052
+        },
+        "word_form": "metabolite creatinine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 32031,
+          "end": 32041
+        },
+        "word_form": "metabolite",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 32042,
+          "end": 32052
+        },
+        "word_form": "creatinine",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 32117,
+          "end": 32127
+        },
+        "word_form": "creatinine",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 32117,
+          "end": 32127
+        },
+        "word_form": "creatinine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 32148,
+          "end": 32156
+        },
+        "word_form": "patients",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 32187,
+          "end": 32191
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 32220,
+          "end": 32235
+        },
+        "word_form": "phosphocreatine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 32406,
+          "end": 32424
+        },
+        "word_form": "tricarboxylic acid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 32439,
+          "end": 32458
+        },
+        "word_form": "phosphocreatine–ATP",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 32439,
+          "end": 32458
+        },
+        "word_form": "phosphocreatine–ATP",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 32731,
+          "end": 32736
+        },
+        "word_form": "MDD46",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 32778,
+          "end": 32797
+        },
+        "word_form": "metabolites glycine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 32854,
+          "end": 32858
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 32866,
+          "end": 32877
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 32866,
+          "end": 32877
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 32915,
+          "end": 32926
+        },
+        "word_form": "glutathione",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 32985,
+          "end": 32996
+        },
+        "word_form": "glutathione",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 33097,
+          "end": 33108
+        },
+        "word_form": "glutathione",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 33193,
+          "end": 33200
+        },
+        "word_form": "Glycine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 33238,
+          "end": 33249
+        },
+        "word_form": "glutathione",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 33321,
+          "end": 33326
+        },
+        "word_form": "mouse",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 33362,
+          "end": 33373
+        },
+        "word_form": "glutathione",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 33435,
+          "end": 33442
+        },
+        "word_form": "glycine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 33710,
+          "end": 33714
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 33732,
+          "end": 33737
+        },
+        "word_form": "lipid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 33841,
+          "end": 33847
+        },
+        "word_form": "rodent",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 33946,
+          "end": 33957
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 33946,
+          "end": 33957
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 34008,
+          "end": 34012
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 34047,
+          "end": 34065
+        },
+        "word_form": "phorylethanolamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 34067,
+          "end": 34075
+        },
+        "word_form": "glycerol",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 34081,
+          "end": 34097
+        },
+        "word_form": "arachidonic acid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 34099,
+          "end": 34107
+        },
+        "word_form": "Glycerol",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 34132,
+          "end": 34144
+        },
+        "word_form": "triglyceride",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 34189,
+          "end": 34193
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 34203,
+          "end": 34208
+        },
+        "word_form": "lipid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 34263,
+          "end": 34267
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 34414,
+          "end": 34425
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 34453,
+          "end": 34458
+        },
+        "word_form": "lipid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 35014,
+          "end": 35018
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 35839,
+          "end": 35844
+        },
+        "word_form": "mouse",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 35869,
+          "end": 35873
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 35971,
+          "end": 35976
+        },
+        "word_form": "lipid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 35978,
+          "end": 35988
+        },
+        "word_form": "amino acid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 36055,
+          "end": 36059
+        },
+        "word_form": "mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 36084,
+          "end": 36089
+        },
+        "word_form": "lipid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 36113,
+          "end": 36118
+        },
+        "word_form": "lipid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 36148,
+          "end": 36153
+        },
+        "word_form": "mouse",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 36197,
+          "end": 36208
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 36197,
+          "end": 36208
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 36260,
+          "end": 36274
+        },
+        "word_form": "aminoacyl-tRNA",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 36314,
+          "end": 36328
+        },
+        "word_form": "metabolites in",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 37701,
+          "end": 37707
+        },
+        "word_form": "Animal",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 38834,
+          "end": 38841
+        },
+        "word_form": "Lithium",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 38980,
+          "end": 38992
+        },
+        "word_form": "nitric oxide",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 39138,
+          "end": 39147
+        },
+        "word_form": "glutamate",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 39735,
+          "end": 39739
+        },
+        "word_form": "cAMP",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 39765,
+          "end": 39772
+        },
+        "word_form": "protein",
+        "category": "Protein"
+      },
+      {
+        "span": {
+          "begin": 40229,
+          "end": 40237
+        },
+        "word_form": "patients",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 40438,
+          "end": 40448
+        },
+        "word_form": "metabolite",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 41209,
+          "end": 41214
+        },
+        "word_form": "mouse",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 41364,
+          "end": 41372
+        },
+        "word_form": "patients",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 41668,
+          "end": 41673
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 42062,
+          "end": 42067
+        },
+        "word_form": "lipid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 42098,
+          "end": 42103
+        },
+        "word_form": "mouse",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 42350,
+          "end": 42355
+        },
+        "word_form": "lipid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 42609,
+          "end": 42622
+        },
+        "word_form": "D-lactic acid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 42658,
+          "end": 42662
+        },
+        "word_form": "rats",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 42664,
+          "end": 42671
+        },
+        "word_form": "Physiol",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 42731,
+          "end": 42738
+        },
+        "word_form": "insulin",
+        "category": "Protein"
+      },
+      {
+        "span": {
+          "begin": 42800,
+          "end": 42812
+        },
+        "word_form": "nitric oxide",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 43516,
+          "end": 43527
+        },
+        "word_form": "LPS-induced",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 43592,
+          "end": 43599
+        },
+        "word_form": "Physiol",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 43773,
+          "end": 43776
+        },
+        "word_form": "LPS",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 43773,
+          "end": 43776
+        },
+        "word_form": "LPS",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 43894,
+          "end": 43904
+        },
+        "word_form": "Endocrinol",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 44002,
+          "end": 44022
+        },
+        "word_form": "glutamine synthetase",
+        "category": "Protein"
+      },
+      {
+        "span": {
+          "begin": 44002,
+          "end": 44011
+        },
+        "word_form": "glutamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 44092,
+          "end": 44101
+        },
+        "word_form": "Glutamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 44179,
+          "end": 44188
+        },
+        "word_form": "male mice",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 44330,
+          "end": 44336
+        },
+        "word_form": "animal",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 44401,
+          "end": 44404
+        },
+        "word_form": "rat",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 44600,
+          "end": 44604
+        },
+        "word_form": "rats",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 44680,
+          "end": 44690
+        },
+        "word_form": "amino acid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 44710,
+          "end": 44713
+        },
+        "word_form": "rat",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 44828,
+          "end": 44846
+        },
+        "word_form": "serotonin receptor",
+        "category": "Protein"
+      },
+      {
+        "span": {
+          "begin": 44930,
+          "end": 44934
+        },
+        "word_form": "rats",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 45329,
+          "end": 45335
+        },
+        "word_form": "lysine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 45340,
+          "end": 45350
+        },
+        "word_form": "L-arginine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 45527,
+          "end": 45537
+        },
+        "word_form": "amino acid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 45866,
+          "end": 45873
+        },
+        "word_form": "glucose",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 45940,
+          "end": 45948
+        },
+        "word_form": "patients",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 46075,
+          "end": 46085
+        },
+        "word_form": "metabolite",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 46075,
+          "end": 46085
+        },
+        "word_form": "metabolite",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 46457,
+          "end": 46470
+        },
+        "word_form": "S-transferase",
+        "category": "Protein"
+      },
+      {
+        "span": {
+          "begin": 46481,
+          "end": 46489
+        },
+        "word_form": "patients",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 46663,
+          "end": 46674
+        },
+        "word_form": "Glutathione",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 46995,
+          "end": 47005
+        },
+        "word_form": "Amino acid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 47067,
+          "end": 47070
+        },
+        "word_form": "rat",
+        "category": "Species"
+      }
+    ]
+  }
+}

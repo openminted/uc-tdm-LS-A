@@ -1,0 +1,3490 @@
+{
+  "annotatedDocument": {
+    "@context": {
+      "UCompareTS": "http://nactem.ac.uk/schema/uima/typesystem/U_compareTypeSystem#",
+      "Sentence": "UCompareTS:org.u_compare.shared.syntactic.Sentence",
+      "ChebiTS": "http://nactem.ac.uk/schema/uima/typesystem/ChebiCurationTypeSystem#",
+      "Chemical": "ChebiTS:uk.ac.nactem.uima.chebi.Chemical",
+      "Species": "ChebiTS:uk.ac.nactem.uima.chebi.Species",
+      "Protein": "ChebiTS:uk.ac.nactem.uima.chebi.Protein",
+      "Metabolite": "ChebiTS:uk.ac.nactem.uima.chebi.Metabolite",
+      "SpectralData": "ChebiTS:uk.ac.nactem.uima.chebi.SpectralData",
+      "BiologicalActivity": "ChebiTS:uk.ac.nactem.uima.chebi.BiologicalActivity"
+    },
+    "text": "\nfphar-09-00130 February 21, 2018 Time: 17:55 # 1\n\nORIGINAL RESEARCH\npublished: 22 February 2018\n\ndoi: 10.3389/fphar.2018.00130\n\nEdited by:\nJudith Maria Rollinger,\n\nUniversity of Vienna, Austria\n\nReviewed by:\nMarinella De Leo,\n\nUniversità degli Studi di Pisa, Italy\nXiaoying Zhang,\n\nNorthwest A\u0026F University, China\nMarc Poirot,\n\nInstitut National de la Santé et de la\nRecherche Médicale (INSERM),\n\nFrance\n\n*Correspondence:\nQingwang Liu\n\nliuqingwang312@163.com\nJie Yuan\n\ndsyuanjie@126.com\n\nSpecialty section:\nThis article was submitted to\n\nEthnopharmacology,\na section of the journal\n\nFrontiers in Pharmacology\n\nReceived: 29 November 2017\nAccepted: 06 February 2018\nPublished: 22 February 2018\n\nCitation:\nZhang Z, Fang T, Zhou H, Yuan J\nand Liu Q (2018) Characterization\n\nof the in Vitro Metabolic Profile\nof Evodiamine in Human Liver\n\nMicrosomes and Hepatocytes by\nUHPLC-Q Exactive Mass\n\nSpectrometer.\nFront. Pharmacol. 9:130.\n\ndoi: 10.3389/fphar.2018.00130\n\nCharacterization of the in Vitro\nMetabolic Profile of Evodiamine\nin Human Liver Microsomes and\nHepatocytes by UHPLC-Q Exactive\nMass Spectrometer\nZhaowei Zhang1, Tianzi Fang1, Hongyun Zhou1, Jie Yuan2* and Qingwang Liu3*\n\n1 Department of Pharmacy, Jinhua Municipal Central Hospital, Jinhua, China, 2 Anhui Provincial Institute for Food and Drug\nControl, Hefei, China, 3 Institute of Technology Innovation, Hefei Institutes of Physical Science, Chinese Academy of\nSciences, Hefei, China\n\nEvodiamine is an indoloquinazoline alkaloid isolated from the fruit of Evodia rutaecarpa,\nwhich has a wide range of pharmacological effects like anti-tumor and anti-inflammatory\neffects. This study was intended to investigate the metabolic characteristics of\nevodiamine in human liver microsomes and hepatocytes by ultra-high performance\nliquid chromatography coupled with a Q Exactive mass spectrometer. A total of 12\nphase I metabolites were detected in human liver microsomes; whereas in human\nhepatocytes 19 metabolites, including seven phase II metabolites were detected. The\nstructures of the metabolites were characterized based on their accurate masses,\nfragment ions, and chromatographic retention times. Four metabolites (M1, M2,\nM5, and M7) were further unambiguously confirmed by matching their retention\ntimes, accurate masses, and fragment ions with those of their reference standards.\nAmong these metabolites, 12 metabolites are first identified (M2, M5–M8, M10–\nM13, and M17–M19). The current study revealed that oxygenation, N-demethylation,\ndehydrogenation, glucuronidation, and GSH conjugation were the major metabolic\npathways for evodiamine. This study elucidated the detailed metabolite profiles of\nevodiamine, which is helpful in predicting in vivo metabolism of evodiamine in human and\nin understanding the elimination mechanism of evodiamine and in turn, the effectiveness\nand toxicity.\n\nKeywords: evodiamine, metabolism, human liver microsomes, human hepatocytes, LC-MS\n\nINTRODUCTION\n\nEvodia rutaecarpa (Juss.) Benth (family of Rutaceae) has been widely used for medicinal purposes\nin China for treatment of aches and gastrointestinal disorders for thousands of years (Chinese\nPharmacopoeia Commission, 2010). Evodiamine (Figure 1), an indoloquinazoline alkaloid isolated\nfrom the fruit of E. rutaecarpa, was found as one of the main active components in this herb\nmedicine. Evodiamine has been reported to function as anti-inflammatory (Chiou et al., 1997;\n\nFrontiers in Pharmacology | www.frontiersin.org 1 February 2018 | Volume 9 | Article 130\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfphar-09-00130 February 21, 2018 Time: 17:55 # 2\n\nZhang et al. In Vitro Metabolism of Evodiamine\n\nKo et al., 2007), vasodilatory (Chiou et al., 1996), and anti-obesity\nagent (Kobayashi et al., 2001). Recently, evodiamine has drawn\nincreasing attention due to its anti-tumor activity by inhibiting\nproliferation of various cancer cell lines (Liao et al., 2005; Jiang\nand Hu, 2009), by inducing apoptosis (Zhang et al., 2004), and by\ninhibiting topoisomerases I and II (Pan et al., 2012).\n\nPrevious pharmacokinetic study demonstrated that\nevodiamine showed very low oral bioavailability (Komatsu et al.,\n1993), which may be attributed to the extensive metabolism.\nKomatsu et al. (1993) have reported that evodiamine could be\nrapidly converted to its metabolites (see also Lee et al., 2017),\nand its metabolite 10-hydroxyevodiamine showed stronger\ncytotoxicity than evodiamine (Li et al., 2006). Wen et al. (2014)\nreported that evodiamine undergo metabolic bioactivation\nto form its reactive metabolites, and evodiamine is a time-\ndependent inhibitor of CYP3A4. These results indeed provided\nsome clues in interpreting the mechanism of hepatotoxicity of\nevodiamine. Although several studies referred to the metabolism\nof evodiamine have been reported (Sun et al., 2013; Wen et al.,\n2014), detailed metabolite profiling of evodiamine, especially\nin human, has not been carried out. Detailed metabolite\ninformation is helpful to understand the mechanism of drug\naction.\n\nIn early drug discovery stage, it is hard to get in vivo\nhuman metabolism data due to the ethics and safety issues.\nHuman liver microsomes and hepatocytes are alternatives. Liver\nmicrosomes are the most widely used for drug metabolism\nstudies as they are easy to handle and commercially available.\nHowever, there are few limitations (Basu and Shaik, 2016).\nFor example, liver microsomes lack the cell membranes to\nmimic the physiological environment in hepatocytes. In\naddition, they have to be supplemented with cofactors such\nas reduced nicotinamide adenine dinucleotide phosphate\n(NADPH) or uridine 5′-diphosphate glucuronic acid. By\ncontrast, hepatocytes are more suitable for metabolism study\nas they overcome the limitations above and they represent\na more complete system to study drug phase I and phase II\nmetabolism (Shaik, 2016). However, their application is to\nsome extent limited because they are not readily available and\ndifficult to reproduce the results due to high inter individual\nvariability between human liver donors. In practice, human liver\nmicrosomes and hepatocytes are both applied for evaluating drug\nmetabolism liability in order to get more detailed metabolism\ninformation for predicting in vivo human metabolite. Metabolite\ncharacterization continues to be a challenge for scientists.\n\nFIGURE 1 | Chemical structure of evodiamine.\n\nUltra-high performance liquid chromatography coupled with\nQ (UHPLC-Q) Exactive Orbitrap mass spectrometer was\ndemonstrated to be one of the most reliable techniques for\nmetabolites characterization, which can provide accurate\nmasses of metabolites and data dependent MS2 fragment\nions for credible structural analysis (Lopez-Gutierrez et al.,\n2014; Scheidweiler and Huestis, 2014). The data processing\nsoftware Metworks can easily find the potential metabolites\naccording to mass defect filter (MDF) function and background\nsubtraction program, which facilitates the identification of\nmetabolites.\n\nThe current work aimed to identify the metabolite following\nincubation of evodiamine with human liver microsomes and\nhepatocytes by using UHPLC-Q Exactive mass spectrometer, and\nto propose the metabolic pathways of evodiamine in human.\nA total of 19 metabolites, including seven phase II metabolites,\nwere detected and identified. Oxygenation, N-demethylation,\nGSH conjugation, and glucuronidation were the predominant\nmetabolic pathways of evodiamine.\n\nMATERIALS AND METHODS\n\nChemicals and Reagents\nEvodiamine with purity \u003e98% was purchased from\nShanghai PureOne BioTech Co., Ltd. (Shanghai, China).\n10-Hydroxyevodiamine with purity \u003e98% was purchased\nfrom Chengdu Herbpurify Co., Ltd. (Chengdu, China).\n3-Hydroxyevodiamine, 3-hydroxyevodiamine glucuronide, and\n10-hydroxyevodiamine glucuronide with the purity more than\n97.5% were presented as a gift by Dr. Chunyong He and their\nstructures were confirmed by high-resolution mass spectrometry\nand nuclear magnetic resonance spectroscopy. Cryopreserved\nhuman hepatocytes (20 donors) were purchased from the\nResearch Institute for Liver Diseases (Shanghai) Co., Ltd.\n(Shanghai, China). Pooled human liver microsomes (20 donors)\nwere purchased from BD Gentest (Woburn, MA, United States).\nNADPH and MgCl2·6H2O were purchased from Sigma–Aldrich\n(St. Louis, MO, United States). Deionized water was generated\nfrom Milli-Q Water Millipore Purification System (Millipore\nCorp., Bedford, MA, United States). All other chemicals and\nreagents were of analytical grade and commercially available.\n\nMetabolism of Evodiamine in Human\nHepatocytes\nSuspensions of human hepatocytes (1× 106 cell/ml) in Williams’\nE medium were incubated for 2 h with 0.2% acetonitrile (control)\nor 10 µM evodiamine, rotating at 150 rpm at 37◦C in an\nincubator at 5% CO2 and 95% humidity. The total volume of\nincubation was 200 µl. Viability of hepatocytes at pre-incubation\nand post-incubation were determined by trypan blue exclusion\ntest and the viability was more than 80%. After incubation for\n2 h, the biotransformation was terminated by adding 400 µl of\nacetonitrile, and then the samples were centrifuged at 12,000 rpm\nfor 10 min. The resulting supernatant was evaporated to dryness\nunder nitrogen gas at room temperature, and the residue was\nreconstituted with 200 µl of 20% acetonitrile. The sample was\n\nFrontiers in Pharmacology | www.frontiersin.org 2 February 2018 | Volume 9 | Article 130\n\n\n\n\n\n\nfphar-09-00130 February 21, 2018 Time: 17:55 # 3\n\nZhang et al. In Vitro Metabolism of Evodiamine\n\ncentrifuged at 12,000 rpm for 10 min. The resulting supernatant\nwas transferred into a clear Eppendorf tube, and an aliquot of 5 µl\nwas analyzed by LC/MS.\n\nMetabolism of Evodiamine in Pooled\nHuman Liver Microsomes\nAll incubations were performed at 37◦C in an incubator at\n5% CO2 and 95% humidity. Stock solution of evodiamine was\nprepared in acetonitrile. The final concentration of acetonitrile\nin the incubation was 0.2% (v/v). The pooled human liver\nmicrosomes were carefully thawed on ice before experiment.\nMetabolism of evodiamine (10 µM) was performed using pooled\nhuman liver microsomes in 100 mM potassium phosphate\nbuffer (pH 7.4), and the microsomal protein concentration\nwas set at 0.5 mg/ml. After a 5-min pre-incubation at\n37◦C, the reactions were initiated by addition of cofactor\nsolution containing 1.0 mM NADPH and 3.0 mM MgCl2.\nThe total incubation volume was 400 µl. After incubation\nfor 60 min, the reactions were terminated by adding 800 µl\nof acetonitrile, and then the samples were centrifuged at\n12,000 rpm for 10 min. The resulting supernatant was\nevaporated to dryness under nitrogen gas at room temperature,\nand the residue was reconstituted with 200 µl of 20%\nacetonitrile. The sample was centrifuged at 12,000 rpm for\n10 min. The resulting supernatant was then transferred into\na clear Eppendorf tube, and a 5 µl portion was analyzed by\nLC/MS.\n\nUHPLC-Q Exactive Mass Spectrometer\nConditions\nThe LC system consisted of a Thermo Dionex U3000\nUHPLC system (Thermo Electron Corporation, San Jose, CA,\nUnited States), and chromatographic separations were carried\nout on an ACQUITY UPLC BEH C18 column (2.1 mm× 50 mm,\ni.d., 1.7 µm) thermostated at 40◦C. The mobile phase consisted of\n0.1% formic acid in water (A) and 0.1% formic acid in acetonitrile\n(B), at the flow rate of 0.3 ml/min. The gradient elution program\nwas set as follow: 0–1 min, 10% B; 1–5 min, 10–40% B; 5–11 min,\n40-55% B; 11–14 min, 55–90% B; 14–16 min, 90% B; and finally,\nthe column was equilibrated with 10% B for 2 min. The sampler\nwas kept at 10◦C and the injection volume was 5 µl.\n\nHigh-resolution MS and MS2 spectra were obtained on\na Q-Exactive Orbitrap mass spectrometer (Thermo Electron\nCorporation, San Jose, CA, United States) equipped with an\nelectrospray ionization interface operated in positive ion mode.\nThe optimized parameters were set as follow: capillary voltage,\n3.0 kV; sheath gas flow rate, 35 arbitrary unit; auxiliary gas\nflow rate, 5 arbitrary unit; sweep gas flow rate, 5 arbitrary unit;\ncapillary temperature, 325◦C; sheath gas heater temperature,\n200◦C. Data were acquired from 100 to 1000 Da with dd-MS2 or\nMS2 in centroid mode with ramp collision energy being set at 30,\n35, and 45 eV. Raw data were acquired and processed using the\nXcalibur software (Version 2.3.1, Thermo Electron Corporation,\nSan Jose, CA, United States). Metworks software was used\nfor post-acquisition data processing, which can automatically\ngenerate a list of proposed metabolites by comparing the LC/MS\n\nchromatograms of the drug-containing sample with the control\nsamples according to MDF function.\n\nRESULTS AND DISCUSSION\n\nFragmentation of Evodiamine Standard\nIn order to facilitate the structural identification of metabolites,\nthe MS2 fragmentation behaviors of evodiamine was investigated\nby using UHPLC-Q Exactive mass spectrometer, which can\nprovide accurate mass, element composition, and the error\nbetween calculated mass and measured mass. Evodiamine\nshowed protonated ion [M+H]+ at m/z 304.1431 (−4.3 ppm,\nC19H18N3O) and produced a series of product ions in\nproduct ion scan. As shown in MS2 spectrum (Figure 2A),\nevodiamine showed characteristic product ions at m/z 276.1477,\n171.0908, 161.0701, 144.0801, 134.0594, and 106.0649. The\nproposed fragmentation pathways of evodiamine were presented\nin Figure 2B. Among of them, the fragment ions at m/z\n134.0594 and 171.0908 were attributed to the cleavage between\nthe 2-aminobenzaldehyde and carboline moieties to form\na benzoisoxazole after rearrangement. The fragment ions\nat m/z 161.0701 and 144.0801 were likely generated from\nring fission through retro-Diels–Alder reaction followed by\ncleavage of C–N bond. The product ion at m/z 276.1477\nwas derived from the protonated ion m/z 304.1431 by loss\nof CO.\n\nLC/MS Analysis of Metabolites of\nEvodiamine\nIn vitro metabolites of evodiamine in human liver microsomes\nand hepatocytes were analyzed using LC/MS. The difference\nanalysis between blank and evodiamine-containing incubation\nsample was performed by Metworks software (Thermo Electron\nCorporation, San Jose, CA, United States). Precursor ions\nspecifically found in evodiamine-containing incubation samples\nwere viewed as potential metabolites and were thus conducted\nfor MS2 analysis. A total of 12 phase I metabolites were\ndetected in human liver microsomes; whereas in human\nhepatocytes a total of 19 metabolites, including 7 phase II\nmetabolites, were detected and identified. The extracted ion\nchromatograms of these metabolites are shown in Figure 3.\nThe retention times, measured and theoretical masses, mass\nerrors, and characteristic fragment ions of the proposed\nmetabolites are summarized in Table 1. The maximum\nmass errors between the measured and theoretical values\nwere within 5 ppm. The structures of metabolites were\ncharacterized based on their accurate masses, fragment ions,\nand retention times, and four metabolites (M1, M2, M5,\nand M7) were further confirmed by matching their retention\ntimes, accurate masses, and fragment ions with their reference\nstandards.\n\nMetabolites M1 and M2\nM1 and M2, eluted at the retention times of 6.27 and 7.56 min,\nrespectively, showed an accurate protonated molecular\n\nFrontiers in Pharmacology | www.frontiersin.org 3 February 2018 | Volume 9 | Article 130\n\n\n\n\n\n\nfphar-09-00130 February 21, 2018 Time: 17:55 # 4\n\nZhang et al. In Vitro Metabolism of Evodiamine\n\nFIGURE 2 | MS2 spectrum of evodiamine (A) and its fragmentation pathways (B) in positive ion mode.\n\nion at m/z 320.1395 (calculated 320.1394), 15.9964 Da\nhigher than that of evodiamine, suggesting that M1 and\nM2 were oxygenation metabolites of evodiamine. MS2\nspectrum of M1, as shown in Figure 4A, displayed a typical\nproduct ion at m/z 187.0851, suggesting that oxygenation\n\noccurred at carboline moiety. The other fragment ions\nat m/z 161.0693, 160.0745, and 134.0591 suggested that\nthe 2-aminobenzaldehyde moiety remained unmodified.\nCompared with reference standard, the retention time,\naccurate mass, and product ions of M1 were identical to\n\nFrontiers in Pharmacology | www.frontiersin.org 4 February 2018 | Volume 9 | Article 130\n\n\n\n\n\n\nfphar-09-00130 February 21, 2018 Time: 17:55 # 5\n\nZhang et al. In Vitro Metabolism of Evodiamine\n\nFIGURE 3 | Extracted ion chromatograms of metabolites of evodiamine.\n\nthose of 10-hydroxyevodiamine. Hence, M1 was identified as\n10-hydroxyevodiamine.\n\nMS2 spectrum of M2 (Figure 4B) showed typical product\nions at m/z 177.0676, 150.0539, and 122.0594, indicating that\noxygenation occurred at the 2-aminobenzaldehyde moiety. The\nother fragment ions at m/z 171.0903 and 144.0797 were\nidentical to those of parent, which suggested that carboline\nmoiety remained intact. Compared with reference standard, the\nretention time, accurate mass and product ions of M2 were\nidentical to those of 3-hydroxyevodiamine. Hence, M2 was\nidentified as 3-hydroxyevodiamine.\n\nMetabolites M3 and M4\nM3 and M4 were eluted at 4.78 and 4.90 min, respectively.\nBoth metabolites showed an accurate protonated molecular ion\nat m/z 625.2045 (calculated 625.2075), 321.0614 Da higher than\nthat of evodiamine, suggesting that M3 and M4 were formed by\noxygenation followed by GSH conjugation of evodiamine. MS2\nspectra of M3 and M4 (Figure 4C) showed typical product ions\nat m/z 550.1699 and 496.1601, which were derived from neutral\nloss of glutamate residue (−129.0444 Da) and glycine residue\n(−75.0346 Da), respectively (Wen and Zhu, 2015). The product\nions at m/z 492.1512, 363.1094, 336.0985, 219.0587, and 192.0463\ndemonstrated that oxygenation and GSH conjugation occurred at\ncarboline moiety. It has been well-known that 5-hydroxyindole\ncan form reactive species quinone-imine and this intermediate\n\nwas readily conjugated with GSH (Figure 5A). Compared with\nprevious report (Wen et al., 2014), M3 and M4 were therefore\nidentified as GSH conjugates of M1.\n\nMetabolite M5\nM5 was eluted at 5.12 min with accurate protonated molecular\nion at m/z 496.1722 (calculated 496.1714), 192.0291 Da\nhigher than that of parent, suggesting that M5 was formed\nby oxygenation followed by glucuronide conjugation of\nevodiamine. MS2 spectrum, as shown in Figure 4D, displayed\na characteristic product ion at m/z 320.1394 which was\nformed via neutral loss of glucuronyl (−176.0328 Da).\nProduct ions at m/z 363.1160, 187.0850, and 134.0591\nsuggested that oxygenation and glucuronidation occurred\nat carboline moiety. Compared with reference standard, the\nretention time, accurate mass, and product ions of M5 were\nidentical to those of 10-hydroxyevodiamine glucuronide.\nM5 was hence identified as glucuronide conjugate of\n10-hydroxyevodiamine (M1).\n\nMetabolite M6\nM6 was eluted at 4.69 min with an accurate protonated\nmolecular ion at m/z 336.1343 (calculated 336.1343),\n31.9912 Da higher than that of parent, suggesting that M6\nwas the di-oxygenation metabolite of evodiamine. MS2\nspectrum of this precursor ion (Figure 6A) showed typical\n\nFrontiers in Pharmacology | www.frontiersin.org 5 February 2018 | Volume 9 | Article 130\n\n\n\n\n\n\nfphar-09-00130 February 21, 2018 Time: 17:55 # 6\n\nZhang et al. In Vitro Metabolism of Evodiamine\n\nTABLE 1 | Characterization of in vitro metabolites of evodiamine by UHPLC-Q Exactive mass spectrometer.\n\nMetabolites No. RT (min) Mass shift Theo. m/z Meas. m/z Error (ppm) Fragment ions Metabolic pathways\n\nM1 6.27 15.9949 320.1394 320.1395 0.3 187.0851, 161.0693,\n160.0745, 134.0591\n\nOxygenation (P + O)\n\nM2 7.56 15.9949 320.1394 320.1395 0.3 177.0646, 171.0903,\n150.0539, 144.0797,\n122.0597\n\nOxygenation (P + O)\n\nM3 4.78 321.0631 625.2075 625.2045 −4.8 550.1699, 496.1601,\n492.1512, 363.1094,\n336.0985, 219.0587,\n192.0463, 134.0591\n\nOxygenation and GSH conjugation\n(P + O + C10H15N3O6S)\n\nM4 4.90 321.0631 625.2075 625.2045 −4.8 550.1699, 496.1601,\n492.1512, 363.1094,\n336.0985, 219.0587,\n192.0463, 134.0591\n\nOxygenation and GSH conjugation\n(P + O + C10H15N3O6S)\n\nM5 5.12 192.0270 496.1714 496.1722 1.6 363.1160, 320.1394,\n187.0850, 134.0591\n\nOxygenation and glucuronidation\n(P + O + C6H8O6)\n\nM6 4.69 31.9898 336.1343 336.1343 0.0 318.1239,177.0645,\n160.0745, 150.0538,\n144.0797\n\nDi-oxygenation (P + 2O)\n\nM7 6.19 192.0270 496.1714 496.1722 1.6 344.0949, 326.0846,\n320.1368, 171.0903,\n150.0538, 144.0796\n\nOxygenation and glucuronidation\n(P + O + C6H8O6)\n\nM8 6.61 1.9793 306.1237 306.1241 1.3 171.0905, 144.0799,\n136.0384\n\nN-demethylation and oxygenation\n(P − CH2 + O)\n\nM9 6.09 15.9949 320.1394 320.1395 0.3 187.0851, 161.0693,\n160.0745, 134.0591\n\nOxygenation (P + O)\n\nM10 5.48 192.0270 496.1714 496.1722 1.6 363.1160, 320.1394,\n187.0854, 134.0590\n\nOxygenation and glucuronidation\n(P + O + C6H8O6)\n\nM11 4.07 31.9898 336.1343 336.1331 −3.6 318.1239, 176.0693,\n161.0697, 134.0591\n\nDi-oxygenation (P + 2O)\n\nM12 6.29 29.9742 334.1186 334.1177 −2.7 174.0537, 161.0697,\n134.0592\n\nDi-oxygenation and dehydrogenation\n(P + 2O − 2H)\n\nM13 5.41 31.9898 336.1343 336.1341 −0.6 187.0851, 176.0693,\n161.0697, 134.0591\n\nDi-oxygenation (P + 2O)\n\nM14 5.00 305.0682 609.2126 609.2125 −0.2 480.1305, 308.0887,\n302.1264, 179.0472\n\nGSH conjugation (P + C10H15N3O6S)\n\nM15 5.21 305.0682 609.2126 609.2125 −0.2 480.1305, 308.0887,\n302.1264, 179.0472\n\nGSH conjugation (P + C10H15N3O6S)\n\nM16 7.69 −14.0157 290.1288 290.1281 −2.4 171.0905, 144.0799,\n120.0436\n\nN-demethylation (P − CH2)\n\nM17 4.76 1.9793 306.1237 306.1241 1.3 187.0852, 160.0745,\n120.0437\n\nN-demethylation and oxygenation\n(P − CH2 + O)\n\nM18 5.49 1.9793 306.1237 306.1241 1.3 187.0852, 160.0745,\n120.0437\n\nN-demethylation and oxygenation\n(P − CH2 + O)\n\nM19 5.74 1.9793 306.1237 306.1241 1.3 187.0852, 160.0745,\n120.0437\n\nN-demethylation and oxygenation\n(P − CH2 + O)\n\nEvodiamine 8.85 0.0000 304.1444 304.1431 −4.3 276.1477, 171.0908,\n161.0701, 144.0801,\n134.0594, 106.0649\n\nParent\n\nP, parent (evodiamine); Mass shift, mass different between metabolite and parent (evodiamine); Theo. m/z, theoretical mass charge ratio; Meas. m/z, measured mass\ncharge ratio.\n\nproduct ions at m/z 177.0645 and 150.0538, which suggested\nthat one oxygenation occurred at 2-aminobenzaldehyde\nmoiety. Considering that C-3 of evodiamine was readily\nhydroxylated, this oxygenation was likely to occur at C-\n3 position. Product ion at m/z 160.0745 suggested that\nother oxygenation occurred at carboline moiety. A minor\nproduct ion at m/z 318.1239 was formed by loss of\nH2O (−18.0104 Da) from precursor ion, which further\n\ndemonstrated that oxygenation occurred at C-8 position\nof evodiamine. Therefore, M6 was derived from M2 via\noxygenation.\n\nMetabolite M7\nM7 was eluted at 6.19 min with an accurate protonated\nmolecular ion atm/z 496.1722 (calculated 496.1714), 192.0291 Da\nhigher than that of parent, suggesting that M7 was formed by\n\nFrontiers in Pharmacology | www.frontiersin.org 6 February 2018 | Volume 9 | Article 130\n\n\n\n\n\n\nfphar-09-00130 February 21, 2018 Time: 17:55 # 7\n\nZhang et al. In Vitro Metabolism of Evodiamine\n\nFIGURE 4 | MS2 spectra of M1 (A), M2 (B), M3, and M4 (C), and M5 (D).\n\nFIGURE 5 | Formation of M3 and M4 (A) and M14 and M15 (B).\n\noxygenation followed by glucuronide conjugation of evodiamine.\nMS2 spectrum of this precursor ion (Figure 6B) showed\na characteristic product ion at m/z 320.1368, which was\nformed through neutral loss of glucuronyl (−176.0354 Da).\nProduct ions at m/z 344.0949, 326.0846, 171.0903, and 150.0538\nsuggested that oxygenation and glucuronidation occurred\nat 2-aminobenzaldehyde moiety, and the carboline moiety\nremained unmodified. Compared with reference standard,\nthe retention time, accurate mass and product ions of M7\nwere identical to those of 3-hydroxyevodiamine glucuronide.\nM7 was hence identified as glucuronide conjugate of 3-\nhydroxyevodiamine (M2).\n\nMetabolite M8\nM8 was eluted at 6.61 min with an accurate protonated\nmolecular ion at m/z 306.1241 (calculated 306.1237), 1.9810 Da\n\nhigher than that of parent, suggesting that M8 was formed by\noxygenation and demethylation of evodiamine. MS2 spectrum\n(Figure 6C) showed a characteristic product ion at m/z\n171.0905 by loss of 2-aminobenzaldehyde moiety, suggesting\nthat carboline moiety remained unmodified. Product ion at\nm/z 136.0384 proved that the oxygenation and demethylation\noccurred at 2-aminobenzaldehyde moiety. Considering that C-\n3 position of evodiamine was readily hydroxylated, M8 was\ntentatively formed from M2 via demethylation or from M16 via\noxygenation.\n\nMetabolite M9\nM9 eluted at the retention time of 6.09 min showed an\naccurate protonated molecular ion at m/z 320.1395 (calculated\n320.1394), which was 15.9964 Da higher than that of parent,\nsuggesting that M9 was oxygenation metabolite of evodiamine.\n\nFrontiers in Pharmacology | www.frontiersin.org 7 February 2018 | Volume 9 | Article 130\n\n\n\n\n\n\nfphar-09-00130 February 21, 2018 Time: 17:55 # 8\n\nZhang et al. In Vitro Metabolism of Evodiamine\n\nFIGURE 6 | MS2 spectra of M6 (A), M7 (B), M8 (C), and M9 (D).\n\nMS2 spectrum of M9 (Figure 6D) showed typical product ion at\nm/z 187.0851, suggesting that oxygenation occurred at carboline\nmoiety. The other product ions at m/z 161.0693, 160.0745,\nand 134.0591 suggested that the 2-aminobenzaldehyde moiety\nremained unmodified. Hence, M9 was identified as oxygenation\nmetabolite of evodiamine.\n\nMetabolite M10\nM10 was eluted at 5.48 min with an accurate protonated\nmolecular ion atm/z 496.1722 (calculated 496.1714), 192.0291 Da\nhigher than that of parent, suggesting that M10 was from\noxygenation followed by glucuronide conjugation of parent.\nMS2 spectrum (Figure 7A) showed a characteristic neutral loss\nof glucuronyl (−176.0328 Da) to form product ion at m/z\n320.1394. Product ions at m/z 363.1160, 187.0854, and 134.0590\nsuggested that oxygenation and glucuronidation occurred at\ncarboline moiety. M10 was tentatively proposed as glucuronide\nconjugate of M9. This metabolic pathway was similar to\nthat of rutaecarpine, an analog of evodiamine (Lee et al.,\n2017).\n\nMetabolite M11\nM11 was eluted at 4.07 min with an accurate protonated\nmolecular ion at m/z 336.1331 (calculated 336.1343), 31.9900 Da\nhigher than that of parent, suggesting that M11 was derived\nfrom the di-oxygenation of parent. MS2 spectrum (Figure 7B)\nshowed typical product ions at m/z 161.0697 and 134.0591,\nwhich suggested that 2-aminobenzaldehyde moiety remained\nintact. Product ion m/z 176.0693 indicated that di-oxygenation\noccurred at carboline moiety. A minor product ion at m/z\n318.1239 was formed through loss of H2O (−18.0092 Da) from\n\nprecursor ion, which further demonstrated that oxygenation\noccurred at C-8 position of evodiamine. Therefore, M11 was\ntentatively identified as the oxygenation metabolite of M1\nor M9.\n\nMetabolite M12\nM12 was eluted at 6.29 min with an accurate protonated\nmolecular ion at m/z 334.1177 (calculated 334.1186), 29.9746 Da\nhigher than that of parent, suggesting that M12 was derived\nfrom the di-oxygenation and dehydrogenation of parent.\nMS2 spectrum (Figure 7C) showed typical product ions\nat m/z 161.0697 and 134.0592, which suggested that 2-\naminobenzaldehyde moiety remained unmodified. Product ion\nm/z 174.0537 indicated that di-oxygenation and dehydrogenation\noccurred at carboline moiety. Therefore, M12 was identified as\ndehydrogenation product of M11.\n\nMetabolite M13\nM13 eluted at 5.41 min displayed an accurate protonated\nmolecular ion at m/z 336.1341(calculated 336.1343), 31.9910 Da\nhigher than that of parent, suggesting that M13 was from\nthe di-oxygenation of parent. MS2 spectrum (Figure 7D)\nshowed typical product ions at m/z 161.0697 and 134.0591,\nwhich suggested that 2-aminobenzaldehyde moiety remained\nunmodified. Product ion m/z 176.0693 indicated that di-\noxygenation occurred at 3-methyleneindole moiety. A minor\nproduct ion at m/z 320.1365 was formed through loss of\noxygen atom (−15.9976 Da) from precursor ion, which was\na characteristic neutral loss of N-oxygenation metabolite.\nTherefore, M13 was tentatively identified as the N-oxygenation\nmetabolite of M1 or M9.\n\nFrontiers in Pharmacology | www.frontiersin.org 8 February 2018 | Volume 9 | Article 130\n\n\n\n\n\n\nfphar-09-00130 February 21, 2018 Time: 17:55 # 9\n\nZhang et al. In Vitro Metabolism of Evodiamine\n\nFIGURE 7 | MS2 spectra of M10 (A), M11 (B), M12 (C), and M13 (D).\n\nFIGURE 8 | MS2 spectra of M14 and M15 (A), M16 (B), and M17–M19 (C).\n\nMetabolites M14 and M15\nM14 and M15 were eluted at 5.00 and 5.21 min, respectively.\nBoth metabolites showed an accurate protonated molecular\nion at m/z 609.2125 (calculated 609.2126), 305.0694 Da higher\nthan that of parent, suggesting that M14 and M15 were\nGSH conjugate of parent. MS2 spectra of M14 and M15\n(Figure 8A) showed typical product ions at m/z 480.1305 and\n\n302.1264, which were derived from neutral loss of glutamate\nresidue (−129.0820 Da) and GSH residue (−307.0861 Da)\n(Wen and Zhu, 2015). Therefore, M14 and M15 were identified\nto be GSH conjugate of parent. Their formation may be\nthrough oxidation of 3-methyleneindole to form imine-methide\nintermediate, followed by conjugation with GSH as shown in\nFigure 5B.\n\nFrontiers in Pharmacology | www.frontiersin.org 9 February 2018 | Volume 9 | Article 130\n\n\n\n\n\n\nfphar-09-00130 February 21, 2018 Time: 17:55 # 10\n\nZhang et al. In Vitro Metabolism of Evodiamine\n\nFIGURE 9 | Proposed metabolic pathways of evodiamine in human hepatocytes and liver microsomes.\n\nMetabolite M16\nM16 was eluted at 7.69 min with an accurate protonated\nmolecular ion at m/z 290.1281 (calculated 290.1288), 14.0150 Da\nlower than that of parent, suggesting that M16 was the\nN-demethylation metabolite of evodiamine. MS2 spectrum\n(Figure 8B) showed typical product ions at m/z 171.0905 and\n144.0799, which were identical to those of parent. Product ion at\nm/z 120.0436 further proved that M16 was the N-demethylation\nmetabolite of parent (Sun et al., 2013).\n\nMetabolite M17–M19\nM17, M18, and M19 were eluted at 4.76, 5.49, and 5.74 min,\nrespectively. They all showed an exact protonated molecular\nion at m/z 306.1241 (calculated 306.1237), 15.9960 Da higher\nthan that of M16, suggesting that these metabolites were derived\nfrom oxygenation of M16. MS2 spectrum (Figure 8C) showed\ncharacteristic product ions at m/z 187.0852 and 160.0745,\nsuggesting that oxygenation occurred at 3-methyleneindole\nmoiety. Therefore, M17, M18, and M19 were identified as\noxygenation products of M16.\n\nIn Vitro Metabolism of Evodiamine\nIn vitro metabolism of evodiamine in human liver microsomes\nand hepatocytes were investigated using UHPLC-Q Exactive\nmass spectrometer and the metabolic pathways were accordingly\nproposed, as shown in Figure 9. In general, the in vitro\nmetabolism of evodiamine can be concluded to undergo four\npathways. The first pathway is oxidation of indole moiety to\nform oxygenated metabolites M1 and M9, which undergo further\n\nmetabolism to form GSH conjugates (M3 and M4) via reactive\nquinone-imine intermediate, to form glucuronide conjugates\n(M5 and M10), and to form di-oxygenation metabolites\n(M11 and M13). The second pathway is oxidation of C-\n3 position to form M2, which were further metabolized via\noxygenation, glucuronidation and N-demethylation to form M6,\nM7, and M8, respectively. The third metabolic pathway is\nN-demethylation to form M16, which was further metabolized\ninto oxygenated metabolites (M8, M17, M18, and M19).\nThe fourth metabolic pathway is direct conjugation with\nGSH via reactive imine-methide intermediate to form GSH\nadducts (M14 and M15). Therefore, oxygenation, demethylation,\nGSH conjugation, and glucuronidation were the predominant\nmetabolic pathways of evodiamine in human liver microsomes\nand hepatocytes.\n\nThere are several literatures regarding metabolism of alkaloids\nfrom E. rutaecarpa (Li et al., 2006; Wen et al., 2014; Lee\net al., 2017). Due the lack of references, the major metabolic\nsites were not assigned. Previous report by Wen et al. (2014)\nmainly focused on metabolic bioactivation of evodiamine. The\nauthor concluded that the formation of reactive metabolites\nis associated with the moderate hepatotoxicity of evodiamine.\nHowever, it lacks the overall metabolite profiles of evodiamine\nand the conclusion might be a little arbitrary because reactive\nmetabolites do not always mean toxicity, such as cyclobenzaprine\n(Kalgutkar and Dalvie, 2015). The relationship between reactive\nmetabolites and hepatotoxicity is very complex and hard to be\nestablished. A lot of factors can affect the hepatotoxicity, such\nas dose, multiple metabolic pathways, genetic polymorphism,\nand the amount of reactive metabolite in vivo. Sun et al. (2013),\n\nFrontiers in Pharmacology | www.frontiersin.org 10 February 2018 | Volume 9 | Article 130\n\n\n\n\n\n\nfphar-09-00130 February 21, 2018 Time: 17:55 # 11\n\nZhang et al. In Vitro Metabolism of Evodiamine\n\nidentified several hydroxylated metabolites of evodiamine\nin vitro, but they missed the phase II metabolites. Our study\nprovided detailed metabolite profiles of evodiamine in human\nliver microsomes and hepatocytes, leading to 12 new metabolites\nbeing identified (M2, M5–M8, M10–M13, and M17–M19).\nOur findings suggested that evodiamine undergo multiple\nmetabolic pathways, which is helpful in understanding the\nmechanism of toxification and detoxification of evodiamine.\nFurthermore, our study provides valuable information in\npredicting in vivo human metabolite. Future study will be\nintended to focus on the covalent binding of evodiamine\nto protein and safety assessments of the newly identified\nmetabolites.\n\nCONCLUSION\n\nIn the present study, a rapid and reliable analytical method\nbased on UHPLC-Q-Orbitrap-MS was developed and used\nfor the identification of evodiamine metabolites in human\nliver microsomes and hepatocytes. A total of 12 phase I\nmetabolites were detected in human liver microsomes; whereas\nin human hepatocytes a total of 19 metabolites, including\nseven phase II metabolites were detected. Four metabolites (M1,\n\nM2, M5, and M7) were further unambiguously confirmed by\nmatching their retention times, accurate masses and fragment\nions with their reference standards. Evodiamine was proved\nto be metabolized mainly via oxygenation, N-demethylation,\nglucuronidation, and GSH conjugation. Findings from the\ncurrent work are helpful in understanding the mechanism of\ntoxification and detoxification of evodiamine. Furthermore, our\nstudy provides valuable information in predicting in vivo human\nmetabolites.\n\nAUTHOR CONTRIBUTIONS\n\nZZ, JY, and QL conceived and designed the experiments. ZZ, TF,\nand HZ performed the experiments. ZZ, JY, and QL analyzed\nthe data. ZZ and JY contributed reagents/materials/analysis tools.\nZZ, JY, and QL wrote the paper.\n\nFUNDING\n\nThis work was funded by medical and health research\nproject of public health department of Zhejiang province (NO.\n2018258119).\n\nREFERENCES\nBasu, S., and Shaik, A. N. (2016). Is there a paradigm shift in use of microsomes and\n\nhepatocytes in drug discovery and development? ADMET DMPK 4, 114–116.\ndoi: 10.5599/admet.4.2.317\n\nChinese Pharmacopoeia Commission (2010). Pharmacopoeia of the People’s\nRepublic of China, Vol. 1, Beijing: China Medical Science Press,\n160–161.\n\nChiou, W. F., Liao, J. F., and Chen, C. F. (1996). Comparative study on vasodilatory\neffects of three quinazoline alkaloids isolated from Evodia rutaecarpa. J. Nat.\nProd. 59, 374–378. doi: 10.1021/np960161+\n\nChiou, W. F., Sung, Y. J., Liao, J. F., Shum, A. Y., and Chen, C. F. (1997). Inhibitory\neffect of dehydroevodiamine and evodiamine on nitric oxide production\nin cultured murine macrophages. J. Nat. Prod. 60, 708–711. doi: 10.1021/\nnp960495z\n\nJiang, J., and Hu, C. (2009). Evodiamine: a novel anti-cancer alkaloid from\nEvodia rutaecarpa. Molecules 14, 1852–1859. doi: 10.3390/molecules1405\n1852\n\nKalgutkar, A. S., and Dalvie, D. (2015). Predicting toxicity of reactive metabolite-\npositive drug candidates. Annu. Rev. Pharmacol. Toxicol. 55, 35–54. doi: 10.\n1146/annurev-pharmtox-010814-124720\n\nKo, H. C., Wang, Y. H., Liou, K. T., Chen, C. M., Chen, C. H., Wang,\nW. Y., et al. (2007). Anti-inflammatory effects and mechanisms of the ethanol\nextract of Evodia rutaecarpa and its bioactive components on neutrophils and\nmicroglial cells. Eur. J. Pharmacol. 555, 211–217. doi: 10.1016/j.ejphar.2006.\n10.002\n\nKobayashi, Y., Nakano, Y., Kizaki, M., Honshikuma, K., Yokoo, Y., and Kamiya, T.\n(2001). Capsaicin-like anti-obese activities of evodiamine from fruits of Evodia\nrutaecarpa, a vaniloid receptor agonist. Planta Med. 67, 628–633. doi: 10.1055/\ns-2001-17353\n\nKomatsu, K., Wakame, K., and Kano, Y. (1993). Pharmacological properties of\ngalenical preparation. XVI. Pharmacokinetics of evodiamine and the metabolite\nin rat. Biol. Pharm. Bull. 16, 935–938. doi: 10.1248/bpb.16.935\n\nLee, D. W., Kang, Y., Kang, M. J., Noh, K., Kim, J. H., Nepal, M. R., et al. (2017).\nPhase I and phase II metabolite identification of rutaecarpine in freshly isolated\nhepatocytes from male Sprague-Dawley rats. Arch. Pharm. Res. 40, 972–979.\ndoi: 10.1007/s12272-017-0937-7\n\nLi, L., Liu, R., and Ye, M. (2006). Microbial metabolism of evodiamine by\nPenicillium janthinellum and its application for metabolite identification in\nrat urine. Enzyme Microb. Technol. 39, 561–567. doi: 10.1016/j.enzmictec.2005.\n10.029\n\nLiao, C. H., Pan, S. L., Guh, J. H., Chang, Y. L., Pai, H. C., Lin, C. H., et al. (2005).\nAntitumor mechanism of evodiamine, a constituent from Chinese herb Evodiae\nfructus, in human multiple-drug resistant breast cancer NCI/ADR-RES cells\nin vitro and in vivo. Carcinogenesis 26, 968–975. doi: 10.1093/carcin/bgi041\n\nLopez-Gutierrez, N., Romero-Gonzalez, R., Frenich, A. G., and Vidal, J. L. M.\n(2014). Identification and quantification of the main isofiavones and other\nphytochemicals in soy based nutraceutical products by liquid chromatography-\norbitrap high resolution mass spectrometry. J. Chromatogr. A 1348, 125–136.\ndoi: 10.1016/j.chroma.2014.04.090\n\nPan, X., Hartley, J. M., Hartley, J. A., White, K. N., Wang, Z., and\nBligh, S. W. (2012). Evodiamine, a dual catalytic inhibitor of type I\nand II topoisomerases, exhibits enhanced inhibition against camptothecin\nresistant cells. Phytomedicine 19, 618–624. doi: 10.1016/j.phymed.2012.\n02.003\n\nScheidweiler, K. B., and Huestis, M. A. (2014). Simultaneous quantification of 20\nsynthetic cannabinoids and 21 metabolites, and semi-quantification of 12 alkyl\nhydroxyl metabolites in human urine by liquid chromatography-tandem mass\nspectrometry. J. Chromatogr. A 1327, 105–117. doi: 10.1016/j.chroma.2013.\n12.067\n\nShaik, A. N. (2016). Changing trends in use of hepatocytes and microsomes for\nevaluating metabolism studies in drug discovery. ADMET DMPK 4, 60–61.\ndoi: 10.5599/admet.4.2.320\n\nSun, H. Z., Fang, Z. Z., Cao, Y. F., Sun, X. Y., and Hong, M. (2013). Investigation of\nin vitrometabolism of evodiamine: characterization of metabolites and involved\ncytochrome P450 isoforms. Phytother. Res. 27, 705–712. doi: 10.1002/ptr.\n4766\n\nWen, B., Roongta, V., Liu, L. L., and Moore, D. J. (2014). Metabolic activation of\nthe indoloquinazoline alkaloids evodiamine and rutaecarpine by human liver\nmicrosomes: dehydrogenation and inactivation of cytochrome P450 3A4s. Drug\nMetab. Dispos. 42, 1044–1054. doi: 10.1124/dmd.114.057414\n\nWen, B., and Zhu, M. S. (2015). Applications of mass spectrometry in drug\nmetabolism: 50 years of progress. Drug Metab. Rev. 47, 71–87. doi: 10.3109/\n03602532.2014.1001029\n\nFrontiers in Pharmacology | www.frontiersin.org 11 February 2018 | Volume 9 | Article 130\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfphar-09-00130 February 21, 2018 Time: 17:55 # 12\n\nZhang et al. In Vitro Metabolism of Evodiamine\n\nZhang, Y., Wu, L. J., Tashiro, S., Onodera, S., and Ikejima, T. (2004). Evodiamine\ninduces tumor cell death through two different pathways: apoptosis and\nnecrosis. Acta Pharmacol. Sin. 25, 83–89.\n\nConflict of Interest Statement: The authors declare that the research was\nconducted in the absence of any commercial or financial relationships that could\nbe construed as a potential conflict of interest.\n\nCopyright © 2018 Zhang, Fang, Zhou, Yuan and Liu. This is an open-access article\ndistributed under the terms of the Creative Commons Attribution License (CC BY).\nThe use, distribution or reproduction in other forums is permitted, provided the\noriginal author(s) and the copyright owner are credited and that the original\npublication in this journal is cited, in accordance with accepted academic practice.\nNo use, distribution or reproduction is permitted which does not comply with these\nterms.\n\nFrontiers in Pharmacology | www.frontiersin.org 12 February 2018 | Volume 9 | Article 130\n\n\n\n\n\n\n\n\n\n\n\tCharacterization of the in Vitro Metabolic Profile of Evodiaminein Human Liver Microsomes and Hepatocytes by UHPLC-Q Exactive Mass Spectrometer\n\tIntroduction\n\tMaterials and Methods\n\tChemicals and Reagents\n\tMetabolism of Evodiamine in Human Hepatocytes\n\tMetabolism of Evodiamine in Pooled Human Liver Microsomes\n\tUHPLC-Q Exactive Mass Spectrometer Conditions\n\n\tResults and Discussion\n\tFragmentation of Evodiamine Standard\n\tLC/MS Analysis of Metabolites of Evodiamine\n\tMetabolites M1 and M2\n\tMetabolites M3 and M4\n\tMetabolite M5\n\tMetabolite M6\n\tMetabolite M7\n\tMetabolite M8\n\tMetabolite M9\n\tMetabolite M10\n\tMetabolite M11\n\tMetabolite M12\n\tMetabolite M13\n\tMetabolites M14 and M15\n\tMetabolite M16\n\tMetabolite M17–M19\n\tIn Vitro Metabolism of Evodiamine\n\n\tConclusion\n\tAuthor Contributions\n\tFunding\n\tReferences\n\n\n",
+    "denotations": [
+      {
+        "span": {
+          "begin": 808,
+          "end": 818
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 822,
+          "end": 827
+        },
+        "word_form": "Human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 1013,
+          "end": 1023
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 1027,
+          "end": 1032
+        },
+        "word_form": "Human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 1445,
+          "end": 1455
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 1462,
+          "end": 1488
+        },
+        "word_form": "indoloquinazoline alkaloid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 1516,
+          "end": 1533
+        },
+        "word_form": "Evodia rutaecarpa",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 1704,
+          "end": 1714
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 1718,
+          "end": 1723
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 1872,
+          "end": 1883
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 1872,
+          "end": 1883
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 1901,
+          "end": 1906
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 1936,
+          "end": 1941
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 1957,
+          "end": 1968
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 1995,
+          "end": 2006
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 1995,
+          "end": 2006
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 2044,
+          "end": 2055
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 2044,
+          "end": 2055
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 2164,
+          "end": 2175
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 2181,
+          "end": 2183
+        },
+        "word_form": "M2",
+        "category": "Protein"
+      },
+      {
+        "span": {
+          "begin": 2193,
+          "end": 2195
+        },
+        "word_form": "M7",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 2357,
+          "end": 2384
+        },
+        "word_form": "metabolites, 12 metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 2357,
+          "end": 2368
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 2370,
+          "end": 2384
+        },
+        "word_form": "12 metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 2407,
+          "end": 2409
+        },
+        "word_form": "M2",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 2542,
+          "end": 2545
+        },
+        "word_form": "GSH",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 2596,
+          "end": 2606
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 2643,
+          "end": 2653
+        },
+        "word_form": "metabolite",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 2666,
+          "end": 2676
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 2731,
+          "end": 2741
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 2745,
+          "end": 2750
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 2801,
+          "end": 2811
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 2868,
+          "end": 2878
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 2892,
+          "end": 2897
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 2916,
+          "end": 2921
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 2999,
+          "end": 3007
+        },
+        "word_form": "Rutaceae",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 3181,
+          "end": 3191
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 3207,
+          "end": 3233
+        },
+        "word_form": "indoloquinazoline alkaloid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 3346,
+          "end": 3356
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 3620,
+          "end": 3630
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 3744,
+          "end": 3754
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 3977,
+          "end": 4000
+        },
+        "word_form": "topoisomerases I and II",
+        "category": "Protein"
+      },
+      {
+        "span": {
+          "begin": 4071,
+          "end": 4081
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 4237,
+          "end": 4247
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 4282,
+          "end": 4295
+        },
+        "word_form": "metabolites (",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 4331,
+          "end": 4362
+        },
+        "word_form": "metabolite 10-hydroxyevodiamine",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 4331,
+          "end": 4362
+        },
+        "word_form": "metabolite 10-hydroxyevodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 4397,
+          "end": 4407
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 4459,
+          "end": 4469
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 4514,
+          "end": 4535
+        },
+        "word_form": "reactive metabolites,",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 4514,
+          "end": 4534
+        },
+        "word_form": "reactive metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 4540,
+          "end": 4550
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 4585,
+          "end": 4591
+        },
+        "word_form": "CYP3A4",
+        "category": "Protein"
+      },
+      {
+        "span": {
+          "begin": 4685,
+          "end": 4695
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 4752,
+          "end": 4762
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 4829,
+          "end": 4839
+        },
+        "word_form": "metabolite",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 4853,
+          "end": 4863
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 4879,
+          "end": 4884
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 4921,
+          "end": 4931
+        },
+        "word_form": "metabolite",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 4986,
+          "end": 4990
+        },
+        "word_form": "drug",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 5057,
+          "end": 5062
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 5116,
+          "end": 5121
+        },
+        "word_form": "Human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 5219,
+          "end": 5223
+        },
+        "word_form": "drug",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 5531,
+          "end": 5582
+        },
+        "word_form": "reduced nicotinamide adenine dinucleotide phosphate",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 5584,
+          "end": 5589
+        },
+        "word_form": "NADPH",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 5594,
+          "end": 5632
+        },
+        "word_form": "uridine 5′-diphosphate glucuronic acid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 5788,
+          "end": 5792
+        },
+        "word_form": "drug",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 6020,
+          "end": 6025
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 6053,
+          "end": 6058
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 6124,
+          "end": 6128
+        },
+        "word_form": "drug",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 6226,
+          "end": 6231
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 6232,
+          "end": 6242
+        },
+        "word_form": "metabolite",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 6232,
+          "end": 6242
+        },
+        "word_form": "metabolite",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 6244,
+          "end": 6254
+        },
+        "word_form": "Metabolite",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 6350,
+          "end": 6360
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 6599,
+          "end": 6610
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 6599,
+          "end": 6610
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 6813,
+          "end": 6824
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 6813,
+          "end": 6824
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 6948,
+          "end": 6959
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 6948,
+          "end": 6959
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 7001,
+          "end": 7011
+        },
+        "word_form": "metabolite",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 7001,
+          "end": 7011
+        },
+        "word_form": "metabolite",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 7036,
+          "end": 7046
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 7052,
+          "end": 7057
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 7177,
+          "end": 7187
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 7191,
+          "end": 7196
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 7209,
+          "end": 7223
+        },
+        "word_form": "19 metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 7250,
+          "end": 7261
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 7250,
+          "end": 7261
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 7323,
+          "end": 7326
+        },
+        "word_form": "GSH",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 7403,
+          "end": 7413
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 7462,
+          "end": 7472
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 7563,
+          "end": 7583
+        },
+        "word_form": "10-Hydroxyevodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 7667,
+          "end": 7686
+        },
+        "word_form": "3-Hydroxyevodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 7688,
+          "end": 7757
+        },
+        "word_form": "3-hydroxyevodiamine glucuronide, and\n10-hydroxyevodiamine glucuronide",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 7688,
+          "end": 7719
+        },
+        "word_form": "3-hydroxyevodiamine glucuronide",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 7725,
+          "end": 7757
+        },
+        "word_form": "10-hydroxyevodiamine glucuronide",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 7966,
+          "end": 7971
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 8105,
+          "end": 8110
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 8200,
+          "end": 8205
+        },
+        "word_form": "NADPH",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 8210,
+          "end": 8220
+        },
+        "word_form": "MgCl2·6H2O",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 8297,
+          "end": 8302
+        },
+        "word_form": "water",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 8514,
+          "end": 8524
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 8528,
+          "end": 8533
+        },
+        "word_form": "Human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 8561,
+          "end": 8566
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 8651,
+          "end": 8663
+        },
+        "word_form": "acetonitrile",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 8745,
+          "end": 8748
+        },
+        "word_form": "CO2",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 9039,
+          "end": 9051
+        },
+        "word_form": "acetonitrile",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 9175,
+          "end": 9183
+        },
+        "word_form": "nitrogen",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 9262,
+          "end": 9274
+        },
+        "word_form": "acetonitrile",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 9473,
+          "end": 9483
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 9655,
+          "end": 9665
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 9676,
+          "end": 9681
+        },
+        "word_form": "Human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 9760,
+          "end": 9763
+        },
+        "word_form": "CO2",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 9800,
+          "end": 9810
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 9827,
+          "end": 9839
+        },
+        "word_form": "acetonitrile",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 9868,
+          "end": 9880
+        },
+        "word_form": "acetonitrile",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 9926,
+          "end": 9931
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 9974,
+          "end": 9977
+        },
+        "word_form": "ice",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 10011,
+          "end": 10021
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 10057,
+          "end": 10062
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 10090,
+          "end": 10109
+        },
+        "word_form": "potassium phosphate",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 10308,
+          "end": 10313
+        },
+        "word_form": "NADPH",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 10325,
+          "end": 10330
+        },
+        "word_form": "MgCl2",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 10451,
+          "end": 10463
+        },
+        "word_form": "acetonitrile",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 10587,
+          "end": 10595
+        },
+        "word_form": "nitrogen",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 10674,
+          "end": 10686
+        },
+        "word_form": "acetonitrile",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 11198,
+          "end": 11209
+        },
+        "word_form": "formic acid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 11213,
+          "end": 11218
+        },
+        "word_form": "water",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 11232,
+          "end": 11243
+        },
+        "word_form": "formic acid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 11247,
+          "end": 11259
+        },
+        "word_form": "acetonitrile",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 12107,
+          "end": 12113
+        },
+        "word_form": "dd-MS2",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 12454,
+          "end": 12465
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 12454,
+          "end": 12465
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 12628,
+          "end": 12638
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 12704,
+          "end": 12715
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 12704,
+          "end": 12715
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 12752,
+          "end": 12762
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 12936,
+          "end": 12946
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 13111,
+          "end": 13121
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 13267,
+          "end": 13277
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 13413,
+          "end": 13432
+        },
+        "word_form": "2-aminobenzaldehyde",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 13437,
+          "end": 13446
+        },
+        "word_form": "carboline",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 13466,
+          "end": 13480
+        },
+        "word_form": "benzoisoxazole",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 13773,
+          "end": 13833
+        },
+        "word_form": "Metabolites of\nEvodiamine\nIn vitro metabolites of evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 13773,
+          "end": 13784
+        },
+        "word_form": "Metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 13837,
+          "end": 13842
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 14183,
+          "end": 14194
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14259,
+          "end": 14270
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 14259,
+          "end": 14270
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14288,
+          "end": 14293
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 14323,
+          "end": 14328
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 14352,
+          "end": 14366
+        },
+        "word_form": "19 metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 14389,
+          "end": 14400
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 14389,
+          "end": 14400
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14473,
+          "end": 14484
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14624,
+          "end": 14635
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 14624,
+          "end": 14635
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14768,
+          "end": 14779
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 14768,
+          "end": 14779
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14876,
+          "end": 14887
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 14876,
+          "end": 14887
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 14893,
+          "end": 14895
+        },
+        "word_form": "M2",
+        "category": "Protein"
+      },
+      {
+        "span": {
+          "begin": 14905,
+          "end": 14907
+        },
+        "word_form": "M7",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 15035,
+          "end": 15049
+        },
+        "word_form": "Metabolites M1",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 15054,
+          "end": 15066
+        },
+        "word_form": "M2\nM1 and M2",
+        "category": "Protein"
+      },
+      {
+        "span": {
+          "begin": 15054,
+          "end": 15059
+        },
+        "word_form": "M2\nM1",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 15064,
+          "end": 15066
+        },
+        "word_form": "M2",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 15356,
+          "end": 15366
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 15395,
+          "end": 15405
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 15542,
+          "end": 15552
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 15577,
+          "end": 15622
+        },
+        "word_form": "M2 were oxygenation metabolites of evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 15577,
+          "end": 15579
+        },
+        "word_form": "M2",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 15757,
+          "end": 15766
+        },
+        "word_form": "carboline",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 15858,
+          "end": 15877
+        },
+        "word_form": "2-aminobenzaldehyde",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 15995,
+          "end": 15997
+        },
+        "word_form": "M1",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 15995,
+          "end": 15997
+        },
+        "word_form": "M1",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 16198,
+          "end": 16208
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 16252,
+          "end": 16309
+        },
+        "word_form": "metabolites of evodiamine.\n\nthose of 10-hydroxyevodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 16252,
+          "end": 16263
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 16339,
+          "end": 16359
+        },
+        "word_form": "10-hydroxyevodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 16506,
+          "end": 16525
+        },
+        "word_form": "2-aminobenzaldehyde",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 16643,
+          "end": 16652
+        },
+        "word_form": "carboline",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 16765,
+          "end": 16767
+        },
+        "word_form": "M2",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 16765,
+          "end": 16767
+        },
+        "word_form": "M2",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 16795,
+          "end": 16814
+        },
+        "word_form": "3-hydroxyevodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 16844,
+          "end": 16863
+        },
+        "word_form": "3-hydroxyevodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 16866,
+          "end": 16880
+        },
+        "word_form": "Metabolites M3",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 16885,
+          "end": 16897
+        },
+        "word_form": "M4\nM3 and M4",
+        "category": "Protein"
+      },
+      {
+        "span": {
+          "begin": 16951,
+          "end": 16962
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 16951,
+          "end": 16962
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17078,
+          "end": 17088
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17155,
+          "end": 17158
+        },
+        "word_form": "GSH",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17174,
+          "end": 17184
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17201,
+          "end": 17203
+        },
+        "word_form": "M3",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 17201,
+          "end": 17203
+        },
+        "word_form": "M3",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17321,
+          "end": 17330
+        },
+        "word_form": "glutamate",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17358,
+          "end": 17373
+        },
+        "word_form": "glycine residue",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17534,
+          "end": 17537
+        },
+        "word_form": "GSH",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17562,
+          "end": 17571
+        },
+        "word_form": "carboline",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17608,
+          "end": 17623
+        },
+        "word_form": "5-hydroxyindole",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 17608,
+          "end": 17623
+        },
+        "word_form": "5-hydroxyindole",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17650,
+          "end": 17663
+        },
+        "word_form": "quinone-imine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17715,
+          "end": 17718
+        },
+        "word_form": "GSH",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17821,
+          "end": 17841
+        },
+        "word_form": "GSH conjugates of M1",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 17844,
+          "end": 17860
+        },
+        "word_form": "Metabolite M5\nM5",
+        "category": "Protein"
+      },
+      {
+        "span": {
+          "begin": 18059,
+          "end": 18070
+        },
+        "word_form": "glucuronide",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 18086,
+          "end": 18096
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 18227,
+          "end": 18237
+        },
+        "word_form": "glucuronyl",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 18366,
+          "end": 18375
+        },
+        "word_form": "carboline",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 18503,
+          "end": 18535
+        },
+        "word_form": "10-hydroxyevodiamine glucuronide",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 18503,
+          "end": 18535
+        },
+        "word_form": "10-hydroxyevodiamine glucuronide",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 18564,
+          "end": 18609
+        },
+        "word_form": "glucuronide conjugate of\n10-hydroxyevodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 18564,
+          "end": 18585
+        },
+        "word_form": "glucuronide conjugate",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 18611,
+          "end": 18613
+        },
+        "word_form": "M1",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 18611,
+          "end": 18613
+        },
+        "word_form": "M1",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 18617,
+          "end": 18633
+        },
+        "word_form": "Metabolite M6\nM6",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 18819,
+          "end": 18829
+        },
+        "word_form": "metabolite",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 18819,
+          "end": 18829
+        },
+        "word_form": "metabolite",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 18833,
+          "end": 18843
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 19089,
+          "end": 19099
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 19140,
+          "end": 19165
+        },
+        "word_form": "metabolites of evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 19206,
+          "end": 19217
+        },
+        "word_form": "Metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 19652,
+          "end": 19655
+        },
+        "word_form": "GSH",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 19827,
+          "end": 19830
+        },
+        "word_form": "GSH",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 21604,
+          "end": 21614
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 21777,
+          "end": 21787
+        },
+        "word_form": "metabolite",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 21777,
+          "end": 21787
+        },
+        "word_form": "metabolite",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 21987,
+          "end": 22006
+        },
+        "word_form": "2-aminobenzaldehyde",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 22039,
+          "end": 22049
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 22204,
+          "end": 22213
+        },
+        "word_form": "carboline",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 22280,
+          "end": 22283
+        },
+        "word_form": "H2O",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 22391,
+          "end": 22401
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 22434,
+          "end": 22436
+        },
+        "word_form": "M2",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 22455,
+          "end": 22471
+        },
+        "word_form": "Metabolite M7\nM7",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 22830,
+          "end": 22840
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 22868,
+          "end": 22870
+        },
+        "word_form": "M1",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 22884,
+          "end": 22886
+        },
+        "word_form": "M3",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 22884,
+          "end": 22886
+        },
+        "word_form": "M3",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 22937,
+          "end": 22939
+        },
+        "word_form": "M3",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 22937,
+          "end": 22939
+        },
+        "word_form": "M3",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 22997,
+          "end": 23008
+        },
+        "word_form": "glucuronide",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 23024,
+          "end": 23034
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 23177,
+          "end": 23187
+        },
+        "word_form": "glucuronyl",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 23326,
+          "end": 23345
+        },
+        "word_form": "2-aminobenzaldehyde",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 23362,
+          "end": 23371
+        },
+        "word_form": "carboline",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 23518,
+          "end": 23549
+        },
+        "word_form": "3-hydroxyevodiamine glucuronide",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 23518,
+          "end": 23549
+        },
+        "word_form": "3-hydroxyevodiamine glucuronide",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 23578,
+          "end": 23599
+        },
+        "word_form": "glucuronide conjugate",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 23578,
+          "end": 23599
+        },
+        "word_form": "glucuronide conjugate",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 23606,
+          "end": 23623
+        },
+        "word_form": "hydroxyevodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 23625,
+          "end": 23627
+        },
+        "word_form": "M2",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 23625,
+          "end": 23627
+        },
+        "word_form": "M2",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 23631,
+          "end": 23641
+        },
+        "word_form": "Metabolite",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 23857,
+          "end": 23867
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 23957,
+          "end": 23976
+        },
+        "word_form": "2-aminobenzaldehyde",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 24001,
+          "end": 24010
+        },
+        "word_form": "carboline",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 24125,
+          "end": 24144
+        },
+        "word_form": "2-aminobenzaldehyde",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 24187,
+          "end": 24197
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 24306,
+          "end": 24316
+        },
+        "word_form": "Metabolite",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 24545,
+          "end": 24555
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 24739,
+          "end": 24749
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 24929,
+          "end": 24938
+        },
+        "word_form": "carboline",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 25029,
+          "end": 25048
+        },
+        "word_form": "2-aminobenzaldehyde",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 25131,
+          "end": 25141
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 25144,
+          "end": 25154
+        },
+        "word_form": "Metabolite",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 25359,
+          "end": 25370
+        },
+        "word_form": "glucuronide",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 25459,
+          "end": 25469
+        },
+        "word_form": "glucuronyl",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 25634,
+          "end": 25643
+        },
+        "word_form": "carboline",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 25684,
+          "end": 25705
+        },
+        "word_form": "glucuronide\nconjugate",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 25684,
+          "end": 25705
+        },
+        "word_form": "glucuronide\nconjugate",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 25759,
+          "end": 25771
+        },
+        "word_form": "rutaecarpine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 25786,
+          "end": 25796
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 25818,
+          "end": 25828
+        },
+        "word_form": "Metabolite",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 26151,
+          "end": 26170
+        },
+        "word_form": "2-aminobenzaldehyde",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26262,
+          "end": 26271
+        },
+        "word_form": "carboline",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26343,
+          "end": 26346
+        },
+        "word_form": "H2O",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26454,
+          "end": 26464
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 26552,
+          "end": 26562
+        },
+        "word_form": "Metabolite",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 26908,
+          "end": 26925
+        },
+        "word_form": "aminobenzaldehyde",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 27041,
+          "end": 27050
+        },
+        "word_form": "carboline",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 27125,
+          "end": 27135
+        },
+        "word_form": "Metabolite",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 27450,
+          "end": 27469
+        },
+        "word_form": "2-aminobenzaldehyde",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 27566,
+          "end": 27583
+        },
+        "word_form": "3-methyleneindole",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 27655,
+          "end": 27661
+        },
+        "word_form": "oxygen",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 27758,
+          "end": 27768
+        },
+        "word_form": "metabolite",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 28039,
+          "end": 28049
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 28188,
+          "end": 28199
+        },
+        "word_form": "Metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 28208,
+          "end": 28223
+        },
+        "word_form": "M15\nM14 and M15",
+        "category": "Protein"
+      },
+      {
+        "span": {
+          "begin": 28277,
+          "end": 28288
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 28277,
+          "end": 28288
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 28445,
+          "end": 28458
+        },
+        "word_form": "GSH conjugate",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 28608,
+          "end": 28617
+        },
+        "word_form": "glutamate",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 28645,
+          "end": 28656
+        },
+        "word_form": "GSH residue",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 28738,
+          "end": 28751
+        },
+        "word_form": "GSH conjugate",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 28807,
+          "end": 28824
+        },
+        "word_form": "3-methyleneindole",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 28890,
+          "end": 28893
+        },
+        "word_form": "GSH",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 29100,
+          "end": 29110
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 29154,
+          "end": 29164
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 29168,
+          "end": 29173
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 29209,
+          "end": 29227
+        },
+        "word_form": "Metabolite M16\nM16",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 29386,
+          "end": 29389
+        },
+        "word_form": "M16",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 29414,
+          "end": 29424
+        },
+        "word_form": "metabolite",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 29414,
+          "end": 29424
+        },
+        "word_form": "metabolite",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 29428,
+          "end": 29438
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 29612,
+          "end": 29615
+        },
+        "word_form": "M16",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 29640,
+          "end": 29650
+        },
+        "word_form": "metabolite",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 29640,
+          "end": 29650
+        },
+        "word_form": "metabolite",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 29682,
+          "end": 29692
+        },
+        "word_form": "Metabolite",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 29894,
+          "end": 29897
+        },
+        "word_form": "M16",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 30101,
+          "end": 30118
+        },
+        "word_form": "3-methyleneindole",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 30199,
+          "end": 30202
+        },
+        "word_form": "M16",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 30228,
+          "end": 30238
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 30262,
+          "end": 30272
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 30276,
+          "end": 30281
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 30489,
+          "end": 30499
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 30577,
+          "end": 30583
+        },
+        "word_form": "indole",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 30599,
+          "end": 30624
+        },
+        "word_form": "oxygenated metabolites M1",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 30675,
+          "end": 30689
+        },
+        "word_form": "GSH conjugates",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 30691,
+          "end": 30693
+        },
+        "word_form": "M3",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 30691,
+          "end": 30693
+        },
+        "word_form": "M3",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 30715,
+          "end": 30728
+        },
+        "word_form": "quinone-imine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 30751,
+          "end": 30773
+        },
+        "word_form": "glucuronide conjugates",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 30751,
+          "end": 30773
+        },
+        "word_form": "glucuronide conjugates",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 30899,
+          "end": 30901
+        },
+        "word_form": "M2",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31080,
+          "end": 31083
+        },
+        "word_form": "M16",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31120,
+          "end": 31144
+        },
+        "word_form": "oxygenated metabolites (",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31120,
+          "end": 31142
+        },
+        "word_form": "oxygenated metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 31224,
+          "end": 31267
+        },
+        "word_form": "GSH via reactive imine-methide intermediate",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31276,
+          "end": 31287
+        },
+        "word_form": "GSH\nadducts",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31342,
+          "end": 31345
+        },
+        "word_form": "GSH",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31422,
+          "end": 31432
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31436,
+          "end": 31441
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 31531,
+          "end": 31540
+        },
+        "word_form": "alkaloids",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31770,
+          "end": 31780
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31825,
+          "end": 31845
+        },
+        "word_form": "reactive metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 31825,
+          "end": 31845
+        },
+        "word_form": "reactive metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31896,
+          "end": 31906
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 31961,
+          "end": 31971
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 32027,
+          "end": 32047
+        },
+        "word_form": "reactive\nmetabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 32085,
+          "end": 32100
+        },
+        "word_form": "cyclobenzaprine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 32156,
+          "end": 32176
+        },
+        "word_form": "reactive\nmetabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 32603,
+          "end": 32613
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 32634,
+          "end": 32672
+        },
+        "word_form": "hydroxylated metabolites of evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 32634,
+          "end": 32658
+        },
+        "word_form": "hydroxylated metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 32712,
+          "end": 32723
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 32712,
+          "end": 32723
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 32776,
+          "end": 32786
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 32790,
+          "end": 32795
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 32848,
+          "end": 32859
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 32878,
+          "end": 32880
+        },
+        "word_form": "M2",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 32940,
+          "end": 32950
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 33074,
+          "end": 33084
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 33161,
+          "end": 33166
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 33167,
+          "end": 33177
+        },
+        "word_form": "metabolite",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 33167,
+          "end": 33177
+        },
+        "word_form": "metabolite",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 33245,
+          "end": 33255
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 33259,
+          "end": 33266
+        },
+        "word_form": "protein",
+        "category": "Protein"
+      },
+      {
+        "span": {
+          "begin": 33314,
+          "end": 33325
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 33314,
+          "end": 33325
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 33479,
+          "end": 33504
+        },
+        "word_form": "evodiamine metabolites in",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 33505,
+          "end": 33510
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 33567,
+          "end": 33578
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 33567,
+          "end": 33578
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 33596,
+          "end": 33601
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 33631,
+          "end": 33636
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 33660,
+          "end": 33674
+        },
+        "word_form": "19 metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 33701,
+          "end": 33712
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 33701,
+          "end": 33712
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 33733,
+          "end": 33744
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 33751,
+          "end": 33753
+        },
+        "word_form": "M2",
+        "category": "Protein"
+      },
+      {
+        "span": {
+          "begin": 33763,
+          "end": 33765
+        },
+        "word_form": "M7",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 33905,
+          "end": 33915
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 34007,
+          "end": 34010
+        },
+        "word_form": "GSH",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 34136,
+          "end": 34146
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 34223,
+          "end": 34228
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 34229,
+          "end": 34240
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 34324,
+          "end": 34326
+        },
+        "word_form": "TF",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 34736,
+          "end": 34740
+        },
+        "word_form": "drug",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 35067,
+          "end": 35088
+        },
+        "word_form": "quinazoline alkaloids",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 35103,
+          "end": 35120
+        },
+        "word_form": "Evodia rutaecarpa",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 35271,
+          "end": 35288
+        },
+        "word_form": "dehydroevodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 35293,
+          "end": 35303
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 35307,
+          "end": 35319
+        },
+        "word_form": "nitric oxide",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 35343,
+          "end": 35349
+        },
+        "word_form": "murine",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 35445,
+          "end": 35455
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 35477,
+          "end": 35485
+        },
+        "word_form": "alkaloid",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 35491,
+          "end": 35508
+        },
+        "word_form": "Evodia rutaecarpa",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 35701,
+          "end": 35708
+        },
+        "word_form": "Toxicol",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 35906,
+          "end": 35913
+        },
+        "word_form": "ethanol",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 35925,
+          "end": 35942
+        },
+        "word_form": "Evodia rutaecarpa",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 36207,
+          "end": 36217
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 36233,
+          "end": 36250
+        },
+        "word_form": "Evodia\nrutaecarpa",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 36254,
+          "end": 36271
+        },
+        "word_form": "vaniloid receptor",
+        "category": "Protein"
+      },
+      {
+        "span": {
+          "begin": 36458,
+          "end": 36468
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 36477,
+          "end": 36487
+        },
+        "word_form": "metabolite",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 36477,
+          "end": 36487
+        },
+        "word_form": "metabolite",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 36491,
+          "end": 36494
+        },
+        "word_form": "rat",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 36688,
+          "end": 36700
+        },
+        "word_form": "rutaecarpine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 36738,
+          "end": 36762
+        },
+        "word_form": "male Sprague-Dawley rats",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 36887,
+          "end": 36897
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 36901,
+          "end": 36912
+        },
+        "word_form": "Penicillium",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 36950,
+          "end": 36960
+        },
+        "word_form": "metabolite",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 36950,
+          "end": 36960
+        },
+        "word_form": "metabolite",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 36979,
+          "end": 36982
+        },
+        "word_form": "rat",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 37005,
+          "end": 37012
+        },
+        "word_form": "Technol",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 37179,
+          "end": 37189
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 37223,
+          "end": 37238
+        },
+        "word_form": "Evodiae\nfructus",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 37243,
+          "end": 37248
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 37537,
+          "end": 37551
+        },
+        "word_form": "phytochemicals",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 37537,
+          "end": 37551
+        },
+        "word_form": "phytochemicals",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 37815,
+          "end": 37825
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 37857,
+          "end": 37885
+        },
+        "word_form": "type I\nand II topoisomerases",
+        "category": "Protein"
+      },
+      {
+        "span": {
+          "begin": 37954,
+          "end": 37970
+        },
+        "word_form": "Phytomedicine 19",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 38109,
+          "end": 38121
+        },
+        "word_form": "cannabinoids",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 38126,
+          "end": 38140
+        },
+        "word_form": "21 metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 38129,
+          "end": 38140
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 38169,
+          "end": 38201
+        },
+        "word_form": "12 alkyl\nhydroxyl metabolites in",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 38169,
+          "end": 38198
+        },
+        "word_form": "12 alkyl\nhydroxyl metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 38202,
+          "end": 38207
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 38444,
+          "end": 38448
+        },
+        "word_form": "drug",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 38618,
+          "end": 38628
+        },
+        "word_form": "evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 38650,
+          "end": 38661
+        },
+        "word_form": "metabolites",
+        "category": "Metabolite"
+      },
+      {
+        "span": {
+          "begin": 38650,
+          "end": 38661
+        },
+        "word_form": "metabolites",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 38675,
+          "end": 38690
+        },
+        "word_form": "cytochrome P450",
+        "category": "Protein"
+      },
+      {
+        "span": {
+          "begin": 38841,
+          "end": 38879
+        },
+        "word_form": "indoloquinazoline alkaloids evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 38884,
+          "end": 38896
+        },
+        "word_form": "rutaecarpine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 38900,
+          "end": 38905
+        },
+        "word_form": "human",
+        "category": "Species"
+      },
+      {
+        "span": {
+          "begin": 38960,
+          "end": 38975
+        },
+        "word_form": "cytochrome P450",
+        "category": "Protein"
+      },
+      {
+        "span": {
+          "begin": 39115,
+          "end": 39119
+        },
+        "word_form": "drug",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 39430,
+          "end": 39440
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 39514,
+          "end": 39524
+        },
+        "word_form": "Evodiamine",
+        "category": "Chemical"
+      },
+      {
+        "span": {
+          "begin": 39622,
+          "end": 39625
+        },
+        "word_form": "Sin",
+        "category": "Chemical"
+      }
+    ]
+  }
+}
